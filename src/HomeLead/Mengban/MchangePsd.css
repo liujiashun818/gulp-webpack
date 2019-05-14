@@ -1,0 +1,117 @@
+.mChangePsd {
+  background: rgba(0, 0, 0, 0.5) repeat 0 0;
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 9996;
+  width: 100%;
+  height: 100%;
+}
+.mChangePsd .dateMengbanCenter {
+  width: 380px;
+  height: 340px;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  margin: auto;
+  font-size: 14px;
+  background-color: #ffffff;
+}
+.mChangePsd .dateMengbanCenter .newtop {
+  width: 100%;
+  background: #64c4dd;
+}
+.mChangePsd .dateMengbanCenter .newtop .newtopTxt {
+  width: 100px;
+  line-height: 40px;
+  color: white;
+  font-size: 16px;
+  margin-left: 20px;
+}
+.mChangePsd .dateMengbanCenter .newtop .newtopX {
+  width: 40px;
+  line-height: 40px;
+  float: right;
+  margin-right: 20px;
+  font-size: 31px;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+  cursor: pointer;
+}
+.mChangePsd .dateMengbanCenter .Change_form {
+  overflow: hidden;
+  margin-top: 20px;
+}
+.mChangePsd .dateMengbanCenter .Change_form .newForm {
+  width: 100%;
+}
+.mChangePsd .dateMengbanCenter .Change_form .newForm .newFormP {
+  width: 100%;
+  height: 52px;
+}
+.mChangePsd .dateMengbanCenter .Change_form .newForm .newFormP .newFormPlable {
+  line-height: 28px;
+  width: 65px;
+  font-size: 14px;
+  margin-left: 20px;
+}
+.mChangePsd .dateMengbanCenter .Change_form .newForm .newFormP .newFormPlable b {
+  color: red;
+  float: right;
+}
+.mChangePsd .dateMengbanCenter .Change_form .newForm .newFormP .selectBg {
+  background: url("images/select-3_03.png") no-repeat center right;
+  background-size: 28px 28px;
+  width: 273px;
+  height: 28px;
+  appearance: none;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+}
+.mChangePsd .dateMengbanCenter .Change_form .newForm .newFormP input {
+  width: 268px;
+  height: 28px;
+}
+.mChangePsd .dateMengbanCenter .Change_form .newForm .newFormP .user_box {
+  float: right;
+  margin-right: 8px;
+  line-height: 24px;
+  height: 24px;
+  width: 100%;
+  text-align: right;
+  padding-right: 8px;
+  color: red;
+  visibility: hidden;
+}
+.mChangePsd .dateMengbanCenter .dateBottom {
+  height: 44px;
+  width: 100%;
+}
+.mChangePsd .dateMengbanCenter .dateBottom span {
+  width: 54px;
+  line-height: 28px;
+  border-radius: 4px;
+  text-align: center;
+  font-size: 14px;
+  float: right;
+  cursor: pointer;
+}
+.mChangePsd .dateMengbanCenter .dateBottom .newSure input {
+  width: 54px;
+  line-height: 28px;
+  border-radius: 4px;
+  text-align: center;
+  background: #74cf84;
+  color: white;
+  border: none;
+}
+.mChangePsd .dateMengbanCenter .dateBottom .newCox {
+  background: #f6f7f8;
+  border: 1px solid gray;
+  margin-left: 10px;
+  margin-right: 20px;
+  line-height: 26px ;
+}

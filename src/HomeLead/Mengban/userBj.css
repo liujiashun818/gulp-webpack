@@ -1,0 +1,93 @@
+.bianjiMengban {
+  background: rgba(0, 0, 0, 0.5) repeat 0 0;
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 9996;
+  display: none;
+  width: 100%;
+  height: 100%;
+}
+.bianjiMengban .newMengbanCenter {
+  width: 760px;
+  height: 500px;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  margin: auto;
+  background-color: #ffffff;
+}
+.bianjiMengban .newMengbanCenter .newtop {
+  height: auto;
+  width: 100%;
+  background: #64c4dd;
+}
+.bianjiMengban .newMengbanCenter .newtop .newtopTxt {
+  width: 100px;
+  line-height: 40px;
+  color: white;
+  font-size: 16px;
+  margin-left: 20px;
+}
+.bianjiMengban .newMengbanCenter .newtop .newtopX {
+  width: 40px;
+  line-height: 40px;
+  float: right;
+  margin-right: 20px;
+  font-size: 31px;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+  cursor: pointer;
+}
+.bianjiMengban .newMengbanCenter .content_wrap {
+  width: 720px;
+  height: 420px;
+  background-color: #ffffff;
+  border: 1px solid darkorchid;
+  overflow: hidden;
+  overflow-y: auto;
+  margin: 0 auto;
+}
+.bianjiMengban .newMengbanCenter .content_wrap .zTreeDemoBackground {
+  width: 100%;
+  height: 100%;
+}
+.bianjiMengban .newMengbanCenter .content_wrap .zTreeDemoBackground .ztree {
+  margin: 0;
+  padding: 5px;
+  color: #333;
+  width: 100%;
+  height: 100%;
+}
+.bianjiMengban .newMengbanCenter .formBottom {
+  height: 40px;
+  width: 720px;
+  margin: 0 auto;
+}
+.bianjiMengban .newMengbanCenter .formBottom span {
+  width: 54px;
+  line-height: 28px;
+  border-radius: 4px;
+  text-align: center;
+  font-size: 14px;
+  float: right;
+  cursor: pointer;
+}
+.bianjiMengban .newMengbanCenter .formBottom .newSure input {
+  width: 54px;
+  line-height: 28px;
+  border-radius: 4px;
+  text-align: center;
+  background: #74cf84;
+  color: white;
+  border: none;
+}
+.bianjiMengban .newMengbanCenter .formBottom .newCox {
+  background: #f6f7f8;
+  border: 1px solid gray;
+  margin-left: 10px;
+}
+/*# sourceMappingURL=userBj.css.map */

@@ -1,0 +1,204 @@
+.homledcontainer {
+    width: 100%;
+   
+    .top {
+        height: 60px;
+        width: 100%;
+        position: fixed;
+        background: #00adda;
+        left: 0;
+        top: 0;
+        z-index: 500;
+        display: -moz-box;
+        display: -webkit-box;
+        .top-left {
+            float: left;
+            height: 60px;
+            width: 740px;
+            line-height:60px;
+            background:#00adda url("../images/logo_03.png") no-repeat center;
+            background-position-x: 16px;
+           position: relative;
+           z-index: 201;
+            ul {
+                margin-left: 266px;
+                width:480px;
+                height: 60px;
+                li:hover {
+                    background: #009fcc;
+                    color: #ffffff;
+                }
+                li {
+                    float: left;
+                    color: #ddf7fe;
+                    font-size: 18px;
+                    line-height: 60px;
+                    width: 80px;
+                    position: relative;
+                    text-align: center;
+                    display: block;
+                    cursor: pointer;
+                }
+            }
+        }
+        .top-right {
+            float: right;
+            line-height: 60px;
+            -webkit-box-flex: 1;
+           
+            ul{
+                width: 350px;
+                height: 60px;
+                float: right;
+                margin-right: 16px;
+            }
+            li {
+                float: left;
+                color: #ddf7fe;
+                font-size: 18px;
+                height: 60px;
+                position: relative;
+                display: block;
+                border-left: 1px solid #009fcc;
+                cursor: pointer;
+                a{
+                    color: whitesmoke;
+                }
+                .top-right-txt {
+                    position: absolute;
+                    right: 8px;
+                    top: 0;
+                }
+            }
+            .search {
+                background: #00adda url("./images/search_03.png") no-repeat center;
+                width: 80px;
+                background-position-x: 12px;
+            }
+            .search:hover {
+                background: #009fcc url("./images/search_03.png") no-repeat center;
+                color: #ffffff;
+                background-position-x: 12px;
+            }
+            .phone {
+                background: url("./images/pshone_06.jpg") no-repeat center;
+                width: 94px;
+                background-position-x: 12px;
+            }
+            .phone:hover {
+                background: #009fcc url("./images/pshone_06.jpg") no-repeat center;
+                color: #ffffff;
+                background-position-x: 12px;
+            }
+            .news {
+                background: url("./images/news_06.jpg") no-repeat center;
+                width: 80px;
+                background-position-x: 12px;
+                .news-list {
+                    width: 26px;
+                    height: 26px;
+                    border-radius: 4px;
+                    background: #ef6407;
+                    position: absolute;
+                    right: 12px;
+                    top: 16px;
+                    #new-list-val {
+                        position: absolute;
+                        top: -18px;
+                        right: 9px;
+                    }
+                }
+            }
+            .news:hover {
+                background: #009fcc url("./images/news_06.jpg") no-repeat center;
+                color: #ffffff;
+                background-position-x: 12px;
+            }
+            .top-right-last {
+                background: url("./images/in_12.png") no-repeat right;
+                width: 88px;
+                background-position-x: 70px;
+                .top-right-loader {
+                    position: absolute;
+                    left: 10px;
+                    top: 0;
+                }
+                .top-right-loader:hover{
+                    color: black;
+                }
+            }
+            .top-right-last:hover {
+                background: #009fcc url("./images/in_12.png") no-repeat right;
+                color: #ffffff;
+                background-position-x: 70px;
+            }
+        }
+    }
+    .top-search-hidden {
+        width: 284px;
+        position: fixed;
+        right: 284px;
+        top: 60px;
+        z-index: 999;
+        border: 1px solid gray;
+        line-height: 36px;
+        background: white;
+        display: none;
+        #top-search-hidden-search {
+            border: 0;
+            height: 36px;
+            width: 252px;
+            float: left;
+        }
+        #top-search-hidden-button {
+            border: 0;
+            float: right;
+            width: 30px;
+            height: 36px;
+            background: white url("./images/search-2_03.png") no-repeat center;
+        }
+    }
+    .top-phone-hidden {
+        width: 94px;
+        height: 100px;
+        background: white url("./images/nav-erweima_03.png") no-repeat center;
+        position: fixed;
+        right: 192px;
+        top: 60px;
+        z-index: 999;
+        box-shadow: 0 1px 2px #000;
+        display: none;
+    }
+    .top-news-hidden {
+        width: 300px;
+        height: 200px;
+        position: fixed;
+        right: 112px;
+        top: 60px;
+        z-index: 999;
+        background: white;
+        box-shadow: 0 1px 2px #000;
+        display: none;
+    }
+    .top-loader-hidden {
+        width: 88px;
+        height: 36px;
+        background: white;
+        float: right;
+        position: fixed;
+        right: 24px;
+        top: 60px;
+        z-index: 999;
+        box-shadow: 0 1px 2px #000;
+        display: none;
+        .top-loader-hidden-txt {
+            margin-left: 10px;
+            color: black;
+        }
+    }
+    .mid{
+        margin-top: 60px;
+        height: auto;
+    }
+}
+/*sourceMappingURL=index.css.map*/

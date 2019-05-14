@@ -1,0 +1,374 @@
+.Faultnew h1 {
+  color: black;
+  margin-top: 20px;
+  margin-bottom: 16px;
+}
+.Faultnew form {
+  width: 100%;
+  min-height: 1400px;
+  margin-bottom: 20px;
+}
+.Faultnew form .FaultnewFormtop1 {
+  width: 100%;
+  height: 30px;
+}
+.Faultnew form .FaultnewFormtop1 .FaultnewFormtopright {
+  float: right;
+}
+.Faultnew form .FaultnewFormtop1 .FaultnewFormtopleft {
+  float: left;
+}
+.Faultnew form .FaultnewFormtop1 span {
+  width: 440px;
+  height: 28px;
+}
+.Faultnew form .FaultnewFormtop1 span .newFormPlable {
+  line-height: 28px;
+  width: 96px;
+  font-size: 14px;
+}
+.Faultnew form .FaultnewFormtop1 span .newFormPlable b {
+  color: red;
+  float: right;
+}
+.Faultnew form .FaultnewFormtop1 span input {
+  width: 340px;
+  height: 28px;
+  float: right;
+}
+.Faultnew form .FaultnewFormtop1 span .selectBg {
+  background: url("../../images/select-3_03.png") no-repeat center right;
+  background-size: 28px 28px;
+  width: 273px;
+  height: 28px;
+  appearance: none;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+}
+.Faultnew form .FaultnewFormtop2 {
+  width: 100%;
+  height: 80px;
+  margin-top: 16px;
+}
+.Faultnew form .FaultnewFormtop2 .newFormPlable {
+  height: 90px;
+  width: 98px;
+  font-size: 14px;
+  float: left;
+}
+.Faultnew form .FaultnewFormtop2 .newFormPlable b {
+  color: red;
+  float: right;
+}
+.Faultnew form .FaultnewFormtop2 .textareaFaultNew {
+  width: 828px;
+  height: 90px;
+  border: 1px solid royalblue;
+}
+.Faultnew form .faultNewSolution {
+  border: 2px solid #0099CC;
+  height: 230px;
+  width: 100%;
+  margin-top: 22px;
+}
+.Faultnew form .faultNewSolution .faultNewSolutionP {
+  width: 100%;
+  background: #daf1f8;
+  height: 40px;
+  line-height: 40px;
+}
+.Faultnew form .faultNewSolution .faultNewSolutionP a {
+  margin-left: 16px;
+  color: #349ef0;
+  font-size: 18px;
+  font-weight: 700;
+}
+.Faultnew form .faultNewSolution ol {
+  width: 440px;
+  height: 190px;
+  margin-left: 16px;
+}
+.Faultnew form .faultNewSolution ol li {
+  margin-left: 16px;
+  margin-top: 20px;
+  list-style-type: disc;
+}
+.Faultnew form .faultNewSolution ol li a {
+  text-decoration: underline;
+}
+.Faultnew form .faultNewSolution ol li p {
+  margin-top: 10px;
+}
+.Faultnew form .faultNewSolution .faultNewSolutionLeft {
+  float: left;
+}
+.Faultnew form .faultNewSolution .faultNewSolutionRight {
+  float: right;
+}
+.Faultnew form .fromMidFlaultNew1 {
+  width: 100%;
+  height: 400px;
+}
+.Faultnew form .fromMidFlaultNew1 .fromLeft {
+  list-style: none;
+  width: 446px;
+  float: left;
+  display: block;
+  margin-top: 12px;
+}
+.Faultnew form .fromMidFlaultNew1 .fromLeft p {
+  width: 100%;
+  line-height: 52px;
+}
+.Faultnew form .fromMidFlaultNew1 .fromLeft p label {
+  line-height: 28px;
+  width: 174px;
+  font-size: 14px;
+  float: left;
+  font-weight: 500;
+}
+.Faultnew form .fromMidFlaultNew1 .fromLeft p label b {
+  color: red;
+  float: right;
+}
+.Faultnew form .fromMidFlaultNew1 .fromLeft p .selectBg {
+  background: url("../../images/select-3_03.png") no-repeat center right;
+  background-size: 28px 28px;
+  width: 268px;
+  height: 28px;
+  float: right;
+  appearance: none;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+}
+.Faultnew form .fromMidFlaultNew1 .fromLeft p input {
+  width: 268px;
+  height: 28px;
+  float: right;
+}
+.Faultnew form .fromMidFlaultNew1 .fromLeft p .user_box {
+  visibility: hidden;
+}
+.Faultnew form .fromMidFlaultNew1 .fromLeft p .user_box {
+  float: right;
+  margin-right: 8px;
+  line-height: 24px;
+  height: 24px;
+  width: 100%;
+  text-align: right;
+  padding-right: 8px;
+  color: red;
+}
+.Faultnew form .fromMidFlaultNew1 .fromRight {
+  list-style: none;
+  width: 440px;
+  margin-top: 12px;
+  float: right;
+  display: block;
+}
+.Faultnew form .fromMidFlaultNew1 .fromRight p {
+  width: 100%;
+  line-height: 52px;
+}
+.Faultnew form .fromMidFlaultNew1 .fromRight p label {
+  line-height: 28px;
+  width: 172px;
+  font-size: 14px;
+  float: left;
+  font-weight: 500;
+}
+.Faultnew form .fromMidFlaultNew1 .fromRight p label b {
+  color: red;
+  float: right;
+}
+.Faultnew form .fromMidFlaultNew1 .fromRight p .selectBg {
+  background: url("../../images/select-3_03.png") no-repeat center right;
+  background-size: 30px 28px;
+  width: 268px;
+  height: 28px;
+  float: right;
+  appearance: none;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+}
+.Faultnew form .fromMidFlaultNew1 .fromRight p input {
+  width: 268px;
+  height: 28px;
+  float: right;
+}
+.Faultnew form .fromMidFlaultNew1 .fromRight p .user_box {
+  visibility: hidden;
+}
+.Faultnew form .fromMidFlaultNew1 .fromRight p .user_box {
+  float: right;
+  margin-right: 8px;
+  line-height: 24px;
+  width: 100%;
+  text-align: right;
+  padding-right: 8px;
+  color: red;
+}
+.Faultnew form .fromMidFlaultNew2 {
+  width: 100%;
+  height: 280px;
+}
+.Faultnew form .fromMidFlaultNew2 .titleServiceLevel {
+  width: 100%;
+  height: 40px;
+  line-height: 40px;
+  overflow: hidden;
+  font-size: 15px;
+  font-weight: bold;
+}
+.Faultnew form .fromMidFlaultNew2 .fromLeft {
+  width: 446px;
+  margin-top: 12px;
+  float: left;
+}
+.Faultnew form .fromMidFlaultNew2 .fromLeft p {
+  width: 100%;
+  line-height: 52px;
+}
+.Faultnew form .fromMidFlaultNew2 .fromLeft p label {
+  line-height: 28px;
+  width: 174px;
+  font-size: 14px;
+  float: left;
+  font-weight: 500;
+}
+.Faultnew form .fromMidFlaultNew2 .fromLeft p label b {
+  color: red;
+  float: right;
+}
+.Faultnew form .fromMidFlaultNew2 .fromLeft p .selectBg {
+  background: url("../../images/select-3_03.png") no-repeat center right;
+  background-size: 28px 28px;
+  width: 268px;
+  height: 28px;
+  float: right;
+  appearance: none;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+}
+.Faultnew form .fromMidFlaultNew2 .fromLeft p input {
+  width: 268px;
+  height: 28px;
+  float: right;
+}
+.Faultnew form .fromMidFlaultNew2 .fromLeft p .user_box {
+  visibility: hidden;
+}
+.Faultnew form .fromMidFlaultNew2 .fromLeft p .user_box {
+  float: right;
+  margin-right: 8px;
+  line-height: 24px;
+  height: 24px;
+  width: 100%;
+  text-align: right;
+  padding-right: 8px;
+  color: red;
+}
+.Faultnew form .fromMidFlaultNew2 .fromRight {
+  width: 440px;
+  margin-top: 12px;
+  float: right;
+}
+.Faultnew form .fromMidFlaultNew2 .fromRight p {
+  width: 100%;
+  line-height: 52px;
+}
+.Faultnew form .fromMidFlaultNew2 .fromRight p label {
+  line-height: 28px;
+  width: 172px;
+  font-size: 14px;
+  float: left;
+  font-weight: 500;
+}
+.Faultnew form .fromMidFlaultNew2 .fromRight p label b {
+  color: red;
+  float: right;
+}
+.Faultnew form .fromMidFlaultNew2 .fromRight p .selectBg {
+  background: url("../../images/select-3_03.png") no-repeat center right;
+  background-size: 30px 28px;
+  width: 268px;
+  height: 28px;
+  float: right;
+  appearance: none;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+}
+.Faultnew form .fromMidFlaultNew2 .fromRight p input {
+  width: 268px;
+  height: 28px;
+  float: right;
+}
+.Faultnew form .fromMidFlaultNew2 .fromRight p .user_box {
+  visibility: hidden;
+}
+.Faultnew form .fromMidFlaultNew2 .fromRight p .user_box {
+  float: right;
+  margin-right: 8px;
+  line-height: 24px;
+  width: 100%;
+  text-align: right;
+  padding-right: 8px;
+  color: red;
+}
+.Faultnew form .photoFaultNew {
+  width: 100%;
+  height: 170px;
+  overflow: hidden;
+  clear: both;
+}
+.Faultnew form .photoFaultNew .photoFaultNewBtn {
+  margin-bottom: 12px;
+}
+.Faultnew form .photoFaultNew button {
+  width: 92px;
+  border: none;
+  border-radius: 2px;
+  background: #349ef0;
+  text-align: center;
+  line-height: 28px;
+  margin-right: 10px;
+  color: white;
+}
+.Faultnew form .photoFaultNew span {
+  color: #999999;
+}
+.Faultnew form .photoFaultNew .photoFaultNewFoot {
+  width: 370px;
+  height: 28px;
+  margin-bottom: 12px;
+  border: 1px solid gray;
+  margin-left: 100px;
+}
+.Faultnew form .photoFaultNew .photoFaultNewFoot .photoFaultNewFootTxt {
+  width: 320px;
+  overflow: hidden;
+  border: none;
+  height: 100%;
+  float: left;
+}
+.Faultnew form .photoFaultNew .photoFaultNewFoot .photoFaultNewFootBtn {
+  float: right;
+  width: 48px;
+  height: 100%;
+  border: none;
+  background: #e5e5e5;
+}
+.Faultnew form .photoFaultNew .photoFaultNewFoot .photoNameFaultNew {
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+.Faultnew form .uploader {
+  height: 140px;
+  width: 100%;
+  border: 1px solid red;
+}
+.Faultnew form .uploader .bar {
+  height: 18px;
+  background: green;
+}

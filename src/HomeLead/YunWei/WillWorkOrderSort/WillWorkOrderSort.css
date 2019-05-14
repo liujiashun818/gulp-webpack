@@ -1,0 +1,185 @@
+.willworkoder {
+  width: 100%;
+  height: 310px;
+  margin-top: 16px;
+}
+.willworkoder .topWorkordermager {
+  margin-right: 16px;
+  height: 50px;
+  margin-left: 16px;
+  border-bottom: 1px solid #eaedf1;
+  background: #ffffff url("../images/willworkoder_03.png") no-repeat center left;
+}
+.willworkoder .mainWorkodermager {
+  width: 100%;
+  height: 246px;
+  display: -webkit-box;
+}
+.willworkoder .mainWorkodermager .mainLeftWork {
+  width: 16px;
+  height: 246px;
+}
+.willworkoder .mainWorkodermager .mainRightWork {
+  -webkit-box-flex: 1;
+  margin-right: 16px;
+}
+.willworkoder .mainWorkodermager .mainRightWork .ctnMainRightWork {
+  width: 100%;
+  height: 194px;
+  border-bottom: 4px solid #eaedf1;
+  position: relative;
+}
+.willworkoder .mainWorkodermager .mainRightWork .ctnMainRightWork .ctnMainRightWorkLine1 {
+  margin-top: 20px;
+}
+.willworkoder .mainWorkodermager .mainRightWork .ctnMainRightWork .ctnMainRightWorkLine {
+  width: 100%;
+  height: 1px;
+  background: #eaedf1;
+  margin-bottom: 20px;
+  z-index: 131;
+}
+.willworkoder .mainWorkodermager .mainRightWork .ctnMainRightWork .changBig:hover {
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  color: white;
+  font-size: 24px;
+  background: #e19577;
+  margin: 0;
+  padding: 0;
+}
+.willworkoder .mainWorkodermager .mainRightWork .ctnMainRightWork .numMainRightWork {
+  border: 1px solid #e19577;
+  width: 40px;
+  line-height: 40px;
+  border-radius: 50%;
+  text-align: center;
+  color: #e19577;
+  position: absolute;
+  height: 40px;
+  z-index: 132;
+}
+.willworkoder .mainWorkodermager .mainRightWork .ctnMainRightWork .changBig {
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  color: white;
+  font-size: 24px;
+  background: #e19577;
+}
+.willworkoder .mainWorkodermager .mainRightWork .ctnMainRightWork .numMainRightWork0 {
+  left: 3%;
+}
+.willworkoder .mainWorkodermager .mainRightWork .ctnMainRightWork .numMainRightWork1 {
+  left: 13%;
+}
+.willworkoder .mainWorkodermager .mainRightWork .ctnMainRightWork .numMainRightWork2 {
+  left: 23%;
+}
+.willworkoder .mainWorkodermager .mainRightWork .ctnMainRightWork .numMainRightWork3 {
+  left: 33%;
+}
+.willworkoder .mainWorkodermager .mainRightWork .ctnMainRightWork .numMainRightWork4 {
+  left: 43%;
+}
+.willworkoder .mainWorkodermager .mainRightWork .ctnMainRightWork .numMainRightWork5 {
+  left: 53%;
+}
+.willworkoder .mainWorkodermager .mainRightWork .ctnMainRightWork .numMainRightWork6 {
+  left: 63%;
+}
+.willworkoder .mainWorkodermager .mainRightWork .ctnMainRightWork .numMainRightWork7 {
+  left: 73%;
+}
+.willworkoder .mainWorkodermager .mainRightWork .ctnMainRightWork .numMainRightWork8 {
+  left: 83%;
+}
+.willworkoder .mainWorkodermager .mainRightWork .ctnMainRightWork .numMainRightWork9 {
+  left: 93%;
+}
+.willworkoder .mainWorkodermager .mainRightWork .ctnMainRightWork .bjtMainRightwork {
+  width: 40px;
+  position: absolute;
+  bottom: 0;
+  background: url("../images/orderSort_03.png") no-repeat bottom center;
+  line-height: 32px;
+  height: 32px;
+  display: none;
+}
+.willworkoder .mainWorkodermager .mainRightWork .ctnMainRightWork .bjtShow {
+  display: block;
+}
+.willworkoder .mainWorkodermager .mainRightWork .ctnMainRightWork .bjtMainRightwork0 {
+  left: 4%;
+}
+.willworkoder .mainWorkodermager .mainRightWork .ctnMainRightWork .bjtMainRightwork1 {
+  left: 14%;
+}
+.willworkoder .mainWorkodermager .mainRightWork .ctnMainRightWork .bjtMainRightwork2 {
+  left: 24%;
+}
+.willworkoder .mainWorkodermager .mainRightWork .ctnMainRightWork .bjtMainRightwork3 {
+  left: 34%;
+}
+.willworkoder .mainWorkodermager .mainRightWork .ctnMainRightWork .bjtMainRightwork4 {
+  left: 44%;
+}
+.willworkoder .mainWorkodermager .mainRightWork .ctnMainRightWork .bjtMainRightwork5 {
+  left: 54%;
+}
+.willworkoder .mainWorkodermager .mainRightWork .ctnMainRightWork .bjtMainRightwork6 {
+  left: 64%;
+}
+.willworkoder .mainWorkodermager .mainRightWork .ctnMainRightWork .bjtMainRightwork7 {
+  left: 74%;
+}
+.willworkoder .mainWorkodermager .mainRightWork .ctnMainRightWork .bjtMainRightwork8 {
+  left: 84%;
+}
+.willworkoder .mainWorkodermager .mainRightWork .ctnMainRightWork .bjtMainRightwork9 {
+  left: 94%;
+}
+.willworkoder .mainWorkodermager .mainRightWork .footMainRightWork {
+  width: 100%;
+  height: 32px;
+  position: relative;
+}
+.willworkoder .mainWorkodermager .mainRightWork .footMainRightWork div {
+  width: 40px;
+  text-align: center;
+  position: absolute;
+  top: 0;
+  line-height: 32px;
+  height: 32px;
+}
+.willworkoder .mainWorkodermager .mainRightWork .footMainRightWork .footMainRightWork0 {
+  left: 3%;
+}
+.willworkoder .mainWorkodermager .mainRightWork .footMainRightWork .footMainRightWork1 {
+  left: 13%;
+}
+.willworkoder .mainWorkodermager .mainRightWork .footMainRightWork .footMainRightWork2 {
+  left: 23%;
+}
+.willworkoder .mainWorkodermager .mainRightWork .footMainRightWork .footMainRightWork3 {
+  left: 33%;
+}
+.willworkoder .mainWorkodermager .mainRightWork .footMainRightWork .footMainRightWork4 {
+  left: 43%;
+}
+.willworkoder .mainWorkodermager .mainRightWork .footMainRightWork .footMainRightWork5 {
+  left: 53%;
+}
+.willworkoder .mainWorkodermager .mainRightWork .footMainRightWork .footMainRightWork6 {
+  left: 63%;
+}
+.willworkoder .mainWorkodermager .mainRightWork .footMainRightWork .footMainRightWork7 {
+  left: 73%;
+}
+.willworkoder .mainWorkodermager .mainRightWork .footMainRightWork .footMainRightWork8 {
+  left: 83%;
+}
+.willworkoder .mainWorkodermager .mainRightWork .footMainRightWork .footMainRightWork9 {
+  left: 93%;
+}

@@ -1,0 +1,107 @@
+.quanXiMengban {
+  background: rgba(0, 0, 0, 0.5) repeat 0 0;
+  display: none;
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 9996;
+  width: 100%;
+  height: 100%;
+}
+.quanXiMengban .quanXiMengbanCenter {
+  width: 760px;
+  height: 500px;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  margin: auto;
+  font-size: 14px;
+  background-color: #ffffff;
+}
+.quanXiMengban .quanXiMengbanCenter .newtop {
+  height: auto;
+  width: 100%;
+  background: #64c4dd;
+}
+.quanXiMengban .quanXiMengbanCenter .newtop .newtopTxt {
+  width: 100px;
+  line-height: 40px;
+  color: white;
+  font-size: 16px;
+  margin-left: 20px;
+}
+.quanXiMengban .quanXiMengbanCenter .newtop .newtopX {
+  width: 40px;
+  line-height: 40px;
+  float: right;
+  margin-right: 20px;
+  font-size: 31px;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+  cursor: pointer;
+}
+.quanXiMengban .quanXiMengbanCenter .newNav {
+  width: 760px;
+  height: 40px;
+  background: #daf1f8;
+  overflow: hidden;
+}
+.quanXiMengban .quanXiMengbanCenter .newNav .newNavright {
+  width: 290px;
+  line-height: 40px;
+  float: right;
+  overflow: hidden;
+}
+.quanXiMengban .quanXiMengbanCenter .newNav .newNavright li {
+  float: left;
+  line-height: 40px;
+  width: 60px;
+  list-style: none;
+  display: inline-block;
+}
+.quanXiMengban .quanXiMengbanCenter .newNav .newNavright li input {
+  vertical-align: middle;
+}
+.quanXiMengban .quanXiMengbanCenter .newNav .newNavright li span {
+  margin-left: 4px;
+}
+.quanXiMengban .quanXiMengbanCenter .newForm {
+  width: 100%;
+  height: 370px;
+  background-color: #ffffff;
+  text-align: center;
+  font-size: 16px;
+  border: 1px solid red;
+}
+.quanXiMengban .quanXiMengbanCenter .dateBottom {
+  height: 44px;
+  width: 100%;
+}
+.quanXiMengban .quanXiMengbanCenter .dateBottom span {
+  width: 54px;
+  line-height: 28px;
+  border-radius: 4px;
+  text-align: center;
+  font-size: 14px;
+  float: right;
+  cursor: pointer;
+}
+.quanXiMengban .quanXiMengbanCenter .dateBottom .newSure input {
+  width: 54px;
+  line-height: 28px;
+  border-radius: 4px;
+  text-align: center;
+  background: #74cf84;
+  color: white;
+  border: none;
+}
+.quanXiMengban .quanXiMengbanCenter .dateBottom .newCox {
+  background: #f6f7f8;
+  border: 1px solid gray;
+  margin-left: 10px;
+  margin-right: 20px;
+}
+/*# sourceMappingURL=userQx.css.map */

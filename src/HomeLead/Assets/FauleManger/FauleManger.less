@@ -1,0 +1,239 @@
+.rightFauleManger {
+    width: 100%;
+    height: 100%;
+    display: -webkit-box;
+    .asideFauleManger {
+        width: 16px;
+    }
+    .sectionFauleManger {
+        -webkit-box-flex: 1;
+        margin-right: 16px;
+        min-height: 1070px;
+        overflow: hidden;
+         position: relative;
+        .navFauleManger {
+            width: 100%;
+            height: 52px;
+            border-bottom: 1px solid #eaedf1;
+            display: -webkit-box;
+           
+            .usermanagerNavLeft {
+                width: 170px;
+                line-height: 52px;
+                font-size: 16px;
+                .fauleMangerline {
+                    float: left;
+                    height: 52px;
+                    width: 6px;
+                    margin-right: 8px;
+                    span {
+                        width: 4px;
+                        height: 16px;
+                        background: #8eddf2;
+                        display: block;
+                        line-height: 58px;
+                        margin-top: 20px;
+                    }
+                }
+                .txtFauleMangerleft {
+                    height: 52px;
+                    width: 164px;
+                    line-height: 52px;
+                    span {
+                        margin-left: 8px;
+                        .agentYunwei {
+                            color: #00adda;
+                        }
+                    }
+                }
+            }
+            .usermanagerNavRight {
+                -webkit-box-flex: 1;
+                .usermanagerNavRightP {
+                    float: right;
+                    margin-top: 12px;
+                    margin-right: 1%;
+                    display: inline-block;
+                    .newJiao {
+                        width: 80px;
+                        height: 30px;
+                        text-align: center;
+                        background: #e19577;
+                        border-radius: 4px;
+                        color: white;
+                        border: none;
+                    }
+                    .onload {
+                        height: 30px;
+                        width: 68px;
+                        text-align: center;
+                        background: #f6f7f8;
+                        color: black;
+                        border: 1px solid gainsboro;
+                        border-radius: 4px;
+                    }
+                    .moreConditions {
+                        height: 30px;
+                        line-height: 30px;
+                        width: 74px;
+                        border-radius: 4px;
+                        background: #aac0ae;
+                        color: white;
+                        border: none;
+                    }
+                    .ctnTxtFauleManger {
+                        height: 30px;
+                        text-align: left;
+                        width: 240px;
+                        float: left;
+                        border: none;
+                    }
+                    .SeachFauleManger {
+                        height: 30px;
+                        color: white;
+                        width: 58px;
+                        text-align: center;
+                        background: #74cf84;
+                        border-top-right-radius: 4px;
+                        border-bottom-right-radius: 4px;
+                        border: none;
+                        float: right;
+                    }
+                }
+                .TxtFauleManger {
+                    width: 300px;
+                    border: 1px solid gainsboro;
+                    border-radius: 4px;
+                }
+                .exportFauleManger {
+                    margin-right: 0;
+                    width: 32px;
+                    height: 30px;
+                    border: 1px solid gainsboro;
+                    border-radius: 4px;
+                    background: white url("../images/export_03.png") no-repeat center center;
+                }
+            }
+        }
+        .OnMoreConditions {
+            width: 100%;
+            height: auto;
+            border: 2px solid #aac0ae;
+            display: none;
+            position: absolute;
+            top: 52px;
+            left: 0;
+            z-index: 246;
+            background: white;
+            .FromMoreCon {
+                width: 100%;
+                height: auto;       
+                display: -webkit-box;
+                  margin-top: 20px;
+                .fromMoreCondiv{
+                    -webkit-box-flex: 1;
+                      p {
+                        width: 100%;
+                        margin-bottom: 14px;
+                        height:30px;
+                        label {
+                            line-height: 28px;
+                            width: 65px;
+                            font-size: 14px;
+                            float: left;
+                            margin-left: 16px;
+                            font-weight: 500;                         
+                        }
+                        .selectBg {
+                            background: url("../images/select-3_03.png") no-repeat center right;
+                            background-size: 28px 28px;
+                            width: 212px;
+                            height: 28px;
+                            appearance: none;
+                            -moz-appearance: none;
+                            -webkit-appearance: none;
+                        }
+                        input {
+                            width: 212px;
+                            height: 28px;
+                        }                  
+                    }
+                }
+                .midFromMoreCon{
+                    margin-right: 2%;
+                    margin-left: 2%;
+                  
+                    .midMoreConBotm{
+                         width: 100%;
+                        margin-bottom: 14px;
+                        height:30px;
+                        .midMoreConBotmdiv{
+                            width:200px;
+                            height: 32px;
+                            margin: 0 auto;
+                              input{
+                                width: 54px;
+                                height: 30px;
+                                line-height: 30px;
+                                border: 1px solid #eaedf1;
+                                color: #349ef0;
+                                background: white;
+                            }
+                           .inputMidMoreCon {
+                                margin-right: 10px;
+                                margin-left: 10px;
+                            }
+                        }
+                      
+                    }
+                }
+            }
+        }
+        .mainFauleManger{
+            height: 1000px;
+            margin-top: 16px;
+            z-index: 245;
+            .handleYunweiDoRightTic{
+                position: absolute;
+                top: -10px;
+                left: 0;
+                width: 44px;
+                height: 20px;
+                border: 1px solid #9d9d9d;
+                background: #f4f4f4;
+                color: black;
+                line-height: 20px;
+                text-align: center;
+                cursor: pointer;
+                display: none;
+            }
+            .roamYunweiDoRightTic{
+                cursor: pointer;
+                position: absolute;
+                top: -10px;
+                right: 0;
+                width: 44px;
+                height: 20px;
+                border: 1px solid #9d9d9d;
+                background: #f4f4f4;
+                color: black;
+                line-height: 20px;
+                text-align: center;
+                 display: none;
+            }
+            .roamYunweiDoRight{
+                margin-left: 32px;
+            }
+            .handleYunweiDoRight{
+                margin-left: 6px;
+            }
+            .commentYunweiDoRight,.closeYunweiDoRight{
+                display: none;
+            }
+            .commentYunweiDoRightTic,.closeYunweiDoRightTic{
+                display: none;
+            }
+        }
+    }
+  
+}

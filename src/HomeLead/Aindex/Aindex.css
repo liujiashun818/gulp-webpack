@@ -1,0 +1,992 @@
+* {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  font-family: "微软雅黑";
+}
+body html {
+  overflow: -Scroll;
+  overflow-x: hidden;
+}
+.index-page {
+  background: #eef5f8;
+  width: 100%;
+  display: -webkit-box;
+}
+.index-page .leftAindex {
+  background: #eef5f8;
+  width: 322px;
+  height: 1118px;
+  margin-left: 16px;
+  margin-right: 16px;
+  margin-top: 16px;
+}
+.index-page .leftAindex .Asset-status {
+  width: 322px;
+  height: 310px;
+  background: #ffffff;
+}
+.index-page .leftAindex .Asset-status .Asset-status-top {
+  width: 290px;
+  height: 50px;
+  margin: 0 auto;
+  border-bottom: 1px solid #eaedf1;
+  background: #ffffff url("images/zczt_03.png") no-repeat center left;
+}
+.index-page .leftAindex .Asset-status .Asset-status-cnt {
+  width: 290px;
+  height: 214px;
+  margin: 0 auto;
+  position: relative;
+}
+.index-page .leftAindex .Asset-status .Asset-status-bottom {
+  width: 290px;
+  height: 40px;
+  margin: 0 auto;
+  display: -webkit-box;
+}
+.index-page .leftAindex .Asset-status .Asset-status-bottom input {
+  border: none;
+  width: 18px;
+  height: 13px;
+  text-align: center;
+}
+.index-page .leftAindex .Asset-status .Asset-status-bottom .Asset-status-roll {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  display: inline-block;
+}
+.index-page .leftAindex .Asset-status .Asset-status-bottom .green {
+  background: #6991ee;
+}
+.index-page .leftAindex .Asset-status .Asset-status-bottom .pink {
+  background: #e19577;
+}
+.index-page .leftAindex .Asset-status .Asset-status-bottom .purple {
+  background: #66c877;
+}
+.index-page .leftAindex .Asset-status .Asset-status-bottom li {
+  float: left;
+  position: relative;
+  -webkit-box-flex: 1;
+}
+.index-page .leftAindex .Asset-status .Asset-status-bottom li span {
+  margin-right: 10px;
+}
+.index-page .leftAindex .Satisfaction-ranking {
+  width: 322px;
+  height: 380px;
+  margin-top: 16px;
+  background: #ffffff;
+}
+.index-page .leftAindex .Satisfaction-ranking .Satisfaction-ranking-top {
+  width: 290px;
+  height: 50px;
+  margin: 0 auto;
+  border-bottom: 1px solid #eaedf1;
+  background: #ffffff url("images/mydpm_03.png") no-repeat center left;
+}
+.index-page .leftAindex .Satisfaction-ranking .Satisfaction-ranking-cnt {
+  width: 290px;
+  height: 318px;
+  margin: 0 auto;
+  overflow: hidden;
+  margin-top: 10px;
+}
+.index-page .leftAindex .Satisfaction-ranking .Satisfaction-ranking-cnt .Satisfaction-ranking-cnt-left {
+  width: 96px;
+  height: 300px;
+  float: left;
+}
+.index-page .leftAindex .Satisfaction-ranking .Satisfaction-ranking-cnt .Satisfaction-ranking-cnt-left li {
+  line-height: 30px;
+  width: 96px;
+  font-size: 14px;
+  font-weight: bold;
+  color: #4e4e4e;
+}
+.index-page .leftAindex .Satisfaction-ranking .Satisfaction-ranking-cnt .Satisfaction-ranking-cnt-right {
+  width: 134px;
+  height: 300px;
+  float: right;
+}
+.index-page .leftAindex .Satisfaction-ranking .Satisfaction-ranking-cnt .Satisfaction-ranking-cnt-right .ant-progress {
+  display: block;
+}
+.index-page .leftAindex .Satisfaction-ranking .Satisfaction-ranking-cnt .Satisfaction-ranking-cnt-right .ant-progress div {
+  height: 30px;
+  overflow: hidden;
+}
+.index-page .leftAindex .Satisfaction-ranking .Satisfaction-ranking-cnt .Satisfaction-ranking-cnt-right .ant-progress div .ant-progress-outer {
+  float: right;
+}
+.index-page .leftAindex .Satisfaction-ranking .Satisfaction-ranking-cnt .Satisfaction-ranking-cnt-right .ant-progress div .ant-progress-outer .ant-progress-inner {
+  background: #e1e1e1;
+  width: 90px;
+  height: 14px;
+  border-radius: 6px;
+  margin-top: 10px;
+}
+.index-page .leftAindex .Satisfaction-ranking .Satisfaction-ranking-cnt .Satisfaction-ranking-cnt-right .ant-progress div .ant-progress-outer .ant-progress-inner .ant-progress-bg {
+  width: 144px;
+  height: 14px;
+  background: #e19577;
+  border-radius: 6px;
+}
+.index-page .leftAindex .Satisfaction-ranking .Satisfaction-ranking-cnt .Satisfaction-ranking-cnt-right .ant-progress div span {
+  float: right;
+  width: 40px;
+  line-height: 32px;
+  color: #999999;
+}
+.index-page .leftAindex .Single-class {
+  height: 380px;
+  width: 322px;
+  margin-top: 16px;
+  background: #ffffff;
+}
+.index-page .leftAindex .Single-class .Single-class-top {
+  height: 106px;
+  display: -webkit-box;
+}
+.index-page .leftAindex .Single-class .Single-class-top .AllWorkOrder {
+  color: #66c877;
+  text-align: center;
+}
+.index-page .leftAindex .Single-class .Single-class-top .overtimeorder {
+  color: #e19577;
+  text-align: center;
+}
+.index-page .leftAindex .Single-class .Single-class-top .DissatisfiedWorkOrder {
+  color: #db8cd4;
+  text-align: center;
+}
+.index-page .leftAindex .Single-class .Single-class-top li {
+  -webkit-box-flex: 1;
+  float: left;
+  position: relative;
+}
+.index-page .leftAindex .Single-class .Single-class-top li .AllWorkOrdertxt {
+  color: #66c877;
+  font-size: 36px;
+  text-align: center;
+}
+.index-page .leftAindex .Single-class .Single-class-top li .overtimeordertxt {
+  color: #e19577;
+  font-size: 36px;
+  text-align: center;
+}
+.index-page .leftAindex .Single-class .Single-class-top li .DissatisfiedWorkOrdertxt {
+  color: #db8cd4;
+  font-size: 36px;
+  text-align: center;
+}
+.index-page .leftAindex .Single-class .Single-class-top li p {
+  width: 100%;
+  height: 50px;
+  line-height: 86px;
+}
+.index-page .leftAindex .Single-class .Single-class-top li span {
+  width: 100%;
+  height: 50px;
+  line-height: 50px;
+  display: inline-block;
+}
+.index-page .leftAindex .Single-class .Single-class-top .overtimeorder {
+  background: url("images/Single-class-top_03.png") no-repeat center bottom;
+}
+.index-page .leftAindex .Single-class .single-class-comment {
+  margin: 0 auto;
+  width: 290px;
+  height: 260px;
+  overflow: hidden;
+}
+.index-page .leftAindex .Single-class .single-class-comment .Overtimenewslist-n ul .Overtimenewslist-left {
+  float: left;
+  width: 166px;
+  line-height: 30px;
+  font-size: 14px;
+}
+.index-page .leftAindex .Single-class .single-class-comment .Overtimenewslist-n ul .Overtimenewslist-left span {
+  display: inline-block;
+  vertical-align: middle;
+}
+.index-page .leftAindex .Single-class .single-class-comment .Overtimenewslist-n ul .Overtimenewslist-left .Overtimenewslist-disc {
+  height: 4px;
+  width: 4px;
+  background: #adadad;
+  border-radius: 50%;
+  margin-right: 8px;
+}
+.index-page .leftAindex .Single-class .single-class-comment .Overtimenewslist-n ul .Overtimenewslist-right {
+  float: right;
+  width: 100px;
+  line-height: 30px;
+  color: #a0a0a0;
+}
+.index-page .rightAindex {
+  -webkit-box-flex: 1;
+  margin-right: 16px;
+  margin-top: 16px;
+  background: #eef5f8;
+  height: 1118px;
+}
+.index-page .rightAindex div {
+  background: #ffffff;
+}
+.index-page .rightAindex .Equipment-today {
+  height: 310px;
+  width: 100%;
+}
+.index-page .rightAindex .Equipment-today .Equipment-today-top {
+  margin-right: 16px;
+  height: 50px;
+  margin-left: 16px;
+  border-bottom: 1px solid #eaedf1;
+  background: #ffffff url("images/jrspqk_03.png") no-repeat center left;
+}
+.index-page .rightAindex .Equipment-today .Equipment-today-cnt {
+  height: 214px;
+  margin-left: 16px;
+  display: -webkit-box;
+}
+.index-page .rightAindex .Equipment-today .Equipment-today-cnt .Equipmenttodaycntleft {
+  width: 50px;
+  height: 212px;
+  text-align: center;
+}
+.index-page .rightAindex .Equipment-today .Equipment-today-cnt .Equipmenttodaycntleft ul {
+  margin-top: 8px;
+}
+.index-page .rightAindex .Equipment-today .Equipment-today-cnt .Equipmenttodaycntleft ul li {
+  color: #a7a7a7;
+  margin-bottom: 22px;
+  text-align: center;
+}
+.index-page .rightAindex .Equipment-today .Equipment-today-cnt .Equipmenttodaycntright {
+  -webkit-box-flex: 1;
+  z-index: 22;
+  position: relative;
+  margin-right: 16px;
+}
+.index-page .rightAindex .Equipment-today .Equipment-today-cnt .Equipmenttodaycntright .Equipmenttodaycntrightctn {
+  width: 100%;
+  height: 165px;
+  position: relative;
+}
+.index-page .rightAindex .Equipment-today .Equipment-today-cnt .Equipmenttodaycntright .Equipmenttodaycntrightctn .trightctnPic {
+  width: 100%;
+  height: 165px;
+  display: -webkit-box;
+  z-index: 1;
+  margin-top: 15px;
+}
+.index-page .rightAindex .Equipment-today .Equipment-today-cnt .Equipmenttodaycntright .Equipmenttodaycntrightctn .trightctnPic .bjEquipmenttodaycntrightctnLine1 {
+  width: 100%;
+  height: 1px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 140;
+  background: #eaedf1;
+}
+.index-page .rightAindex .Equipment-today .Equipment-today-cnt .Equipmenttodaycntright .Equipmenttodaycntrightctn .trightctnPic .bjEquipmenttodaycntrightctnLine2 {
+  width: 100%;
+  height: 1px;
+  position: absolute;
+  top: 40px;
+  left: 0;
+  z-index: 140;
+  background: #eaedf1;
+}
+.index-page .rightAindex .Equipment-today .Equipment-today-cnt .Equipmenttodaycntright .Equipmenttodaycntrightctn .trightctnPic .bjEquipmenttodaycntrightctnLine3 {
+  width: 100%;
+  height: 1px;
+  position: absolute;
+  top: 80px;
+  left: 0;
+  z-index: 140;
+  background: #eaedf1;
+}
+.index-page .rightAindex .Equipment-today .Equipment-today-cnt .Equipmenttodaycntright .Equipmenttodaycntrightctn .trightctnPic .bjEquipmenttodaycntrightctnLine4 {
+  width: 100%;
+  height: 1px;
+  position: absolute;
+  top: 120px;
+  left: 0;
+  z-index: 140;
+  background: #eaedf1;
+}
+.index-page .rightAindex .Equipment-today .Equipment-today-cnt .Equipmenttodaycntright .Equipmenttodaycntrightctn .trightctnPic .bjEquipmenttodaycntrightctnLine5 {
+  width: 100%;
+  height: 1px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: 140;
+  background: #eaedf1;
+}
+.index-page .rightAindex .Equipment-today .Equipment-today-cnt .Equipmenttodaycntright .Equipmenttodaycntrightctn .trightctnPic div {
+  -webkit-box-flex: 1;
+  height: 165px;
+  width: 0;
+}
+.index-page .rightAindex .Equipment-today .Equipment-today-cnt .Equipmenttodaycntright .Equipmenttodaycntrightctn .trightctnPic div div {
+  width: 68px;
+  height: 100%;
+  margin: 0 auto;
+}
+.index-page .rightAindex .Equipment-today .Equipment-today-cnt .Equipmenttodaycntright .Equipmenttodaycntrightctn .trightctnPic div div span {
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+  width: 22px;
+  display: inline-block;
+  margin-bottom: -150px;
+  position: relative;
+  z-index: 141;
+}
+.index-page .rightAindex .Equipment-today .Equipment-today-cnt .Equipmenttodaycntright .Equipmenttodaycntrightctn .trightctnPic div div .toalcolor {
+  background: #6991ee;
+}
+.index-page .rightAindex .Equipment-today .Equipment-today-cnt .Equipmenttodaycntright .Equipmenttodaycntrightctn .trightctnPic div div .toalOnlincolor {
+  background: #66C877;
+}
+.index-page .rightAindex .Equipment-today .Equipment-today-cnt .Equipmenttodaycntright .Equipmenttodaycntrightctn .trightctnPic div div .toalPstopcolor {
+  background: #e19577;
+}
+.index-page .rightAindex .Equipment-today .Equipment-today-cnt .Equipmenttodaycntright .Equipmenttodaycntrightctn .trightctnPic div div .PicPinToal {
+  height: 100%;
+}
+.index-page .rightAindex .Equipment-today .Equipment-today-cnt .Equipmenttodaycntright .Equipmenttodaycntrightctn .trightctnPic div div .PicToalOnlin {
+  height: 80%;
+}
+.index-page .rightAindex .Equipment-today .Equipment-today-cnt .Equipmenttodaycntright .Equipmenttodaycntrightctn .trightctnPic div div .PicToalPstop {
+  height: 60%;
+}
+.index-page .rightAindex .Equipment-today .Equipment-today-cnt .Equipmenttodaycntright .Equipmenttodaycntrightctn .trightctnPic div div .PicRouter {
+  height: 40%;
+}
+.index-page .rightAindex .Equipment-today .Equipment-today-cnt .Equipmenttodaycntright .Equipmenttodaycntrightctn .trightctnPic div div .PicOnlinRouter {
+  height: 30%;
+}
+.index-page .rightAindex .Equipment-today .Equipment-today-cnt .Equipmenttodaycntright .Equipmenttodaycntrightctn .trightctnPic div div .PicPstopRouter {
+  height: 20%;
+}
+.index-page .rightAindex .Equipment-today .Equipment-today-cnt .Equipmenttodaycntright .Equipmenttodaycntrightctn .trightctnPic div div .PicSwitch {
+  height: 60%;
+}
+.index-page .rightAindex .Equipment-today .Equipment-today-cnt .Equipmenttodaycntright .Equipmenttodaycntrightctn .trightctnPic div div .PicOnlinSwitch {
+  height: 20%;
+}
+.index-page .rightAindex .Equipment-today .Equipment-today-cnt .Equipmenttodaycntright .Equipmenttodaycntrightctn .trightctnPic div div .PicPstopSwitch {
+  height: 20%;
+}
+.index-page .rightAindex .Equipment-today .Equipment-today-cnt .Equipmenttodaycntright .Equipmenttodaycntrightctn .trightctnPic div div .PicFirewall {
+  height: 40%;
+}
+.index-page .rightAindex .Equipment-today .Equipment-today-cnt .Equipmenttodaycntright .Equipmenttodaycntrightctn .trightctnPic div div .PicOnlinFirewall {
+  height: 30%;
+}
+.index-page .rightAindex .Equipment-today .Equipment-today-cnt .Equipmenttodaycntright .Equipmenttodaycntrightctn .trightctnPic div div .PicPstopFirewall {
+  height: 20%;
+}
+.index-page .rightAindex .Equipment-today .Equipment-today-cnt .Equipmenttodaycntright .Equipmenttodaycntrightctn .trightctnPic div div .PicServe {
+  height: 30%;
+}
+.index-page .rightAindex .Equipment-today .Equipment-today-cnt .Equipmenttodaycntright .Equipmenttodaycntrightctn .trightctnPic div div .PicOnlinServe {
+  height: 20%;
+}
+.index-page .rightAindex .Equipment-today .Equipment-today-cnt .Equipmenttodaycntright .Equipmenttodaycntrightctn .trightctnPic div div .PicPstopServe {
+  height: 10%;
+}
+.index-page .rightAindex .Equipment-today .Equipment-today-cnt .Equipmenttodaycntright .Equipmenttodaycntrightctn .trightctnPic div div .PicOther {
+  height: 40%;
+}
+.index-page .rightAindex .Equipment-today .Equipment-today-cnt .Equipmenttodaycntright .Equipmenttodaycntrightctn .trightctnPic div div .PicOnlinOther {
+  height: 80%;
+}
+.index-page .rightAindex .Equipment-today .Equipment-today-cnt .Equipmenttodaycntright .Equipmenttodaycntrightctn .trightctnPic div div .PicPstopOther {
+  height: 20%;
+}
+.index-page .rightAindex .Equipment-today .Equipment-today-cnt .Equipmenttodaycntright .Equipmenttodaycntrightbottom {
+  width: 100%;
+  height: 32px;
+  overflow: hidden;
+}
+.index-page .rightAindex .Equipment-today .Equipment-today-cnt .Equipmenttodaycntright .Equipmenttodaycntrightbottom ul {
+  display: -webkit-box;
+  width: 100%;
+  height: 32px;
+  text-align: center;
+}
+.index-page .rightAindex .Equipment-today .Equipment-today-cnt .Equipmenttodaycntright .Equipmenttodaycntrightbottom ul li {
+  -webkit-box-flex: 1;
+  color: #414141;
+  font-size: 12px;
+  font-weight: bold;
+  width: 0;
+  line-height: 32px;
+}
+.index-page .rightAindex .Equipment-today .Equipment-today-bottom {
+  width: 100%;
+  height: 40px;
+  margin-left: 16px;
+}
+.index-page .rightAindex .Equipment-today .Equipment-today-bottom .Equipment-today-bottom-qure {
+  width: 12px;
+  height: 12px;
+  display: inline-block;
+}
+.index-page .rightAindex .Equipment-today .Equipment-today-bottom .green {
+  background: #6991ee;
+}
+.index-page .rightAindex .Equipment-today .Equipment-today-bottom .pink {
+  background: #e19577;
+}
+.index-page .rightAindex .Equipment-today .Equipment-today-bottom .purple {
+  background: #66c877;
+}
+.index-page .rightAindex .Equipment-today .Equipment-today-bottom li {
+  float: left;
+  margin-right: 20px;
+}
+.index-page .rightAindex .Equipment-today .Equipment-today-bottom .Equipment-today-bottom-last {
+  float: right;
+  margin-right: 32px;
+}
+.index-page .rightAindex .Completion-unit {
+  height: 380px;
+  width: 100%;
+  margin-top: 16px;
+}
+.index-page .rightAindex .Completion-unit .Completion-unit-top {
+  margin-right: 16px;
+  height: 310px;
+  margin-left: 16px;
+}
+.index-page .rightAindex .Completion-unit .Completion-unit-top .CompletionUnitTopList {
+  border-bottom: 1px solid #eaedf1;
+  background: #ffffff url("images/gdwwcqk_03.png") no-repeat center left;
+  height: 50px;
+}
+.index-page .rightAindex .Completion-unit .Completion-unit-top .CompletionUnitTopList ul {
+  width: 180px;
+  height: 100%;
+  margin-right: 20px;
+  float: right;
+  display: block;
+}
+.index-page .rightAindex .Completion-unit .Completion-unit-top .CompletionUnitTopList li {
+  line-height: 28px;
+  width: 52px;
+  background: #eaedf1;
+  display: inline-block;
+  margin-right: 6px;
+  text-align: center;
+  float: left;
+  margin-top: 22px;
+  border: 1px solid #eaedf1;
+  border-bottom: none;
+}
+.index-page .rightAindex .Completion-unit .Completion-unit-top .CompletionUnitTopList li:hover {
+  cursor: pointer;
+}
+.index-page .rightAindex .Completion-unit .Completion-unit-cnt {
+  height: 270px;
+  display: -webkit-box;
+  margin-top: 10px;
+}
+.index-page .rightAindex .Completion-unit .Completion-unit-cnt .Completion-unit-cnt-left {
+  width: 76px;
+  font-size: 12px;
+  text-align: right;
+  line-height: 26px;
+  color: #999999;
+}
+.index-page .rightAindex .Completion-unit .Completion-unit-cnt .Completion-unit-cnt-right {
+  margin-left: 16px;
+  -webkit-box-flex: 1;
+  position: relative;
+}
+.index-page .rightAindex .Completion-unit .Completion-unit-cnt .Completion-unit-cnt-right .completionUnitTopToady {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  z-index: 18;
+}
+.index-page .rightAindex .Completion-unit .Completion-unit-cnt .Completion-unit-cnt-right .completionUnitTopToady ul {
+  width: 100%;
+}
+.index-page .rightAindex .Completion-unit .Completion-unit-cnt .Completion-unit-cnt-right .completionUnitTopToady ul li {
+  float: left;
+  width: 12.5%;
+  border-right: 1px solid #e1e1e1;
+  height: 250px;
+  box-sizing: border-box;
+}
+.index-page .rightAindex .Completion-unit .Completion-unit-cnt .Completion-unit-cnt-right .completionUnitTopToadyBar {
+  width: 100%;
+  height: 250px;
+  margin-right: 16px;
+}
+.index-page .rightAindex .Completion-unit .Completion-unit-cnt .Completion-unit-cnt-right .completionUnitTopToadyBar p {
+  z-index: 20;
+  position: absolute;
+  left: 0;
+  height: 4px;
+}
+.index-page .rightAindex .Completion-unit .Completion-unit-cnt .Completion-unit-cnt-right .completionUnitTopToadyBar .ToadyBarGray {
+  background: #e1e1e1;
+}
+.index-page .rightAindex .Completion-unit .Completion-unit-cnt .Completion-unit-cnt-right .completionUnitTopToadyBar .ToadyBarPine {
+  background: #6fcb7f;
+}
+.index-page .rightAindex .Completion-unit .Completion-unit-cnt .Completion-unit-cnt-right .completionUnitTopToadyBar .SiWeifinish {
+  width: 80%;
+  top: 6px;
+}
+.index-page .rightAindex .Completion-unit .Completion-unit-cnt .Completion-unit-cnt-right .completionUnitTopToadyBar .SiWeitotal {
+  width: 40%;
+  top: 10px;
+}
+.index-page .rightAindex .Completion-unit .Completion-unit-cnt .Completion-unit-cnt-right .completionUnitTopToadyBar .Bjszrzfinish {
+  width: 67%;
+  top: 32px;
+}
+.index-page .rightAindex .Completion-unit .Completion-unit-cnt .Completion-unit-cnt-right .completionUnitTopToadyBar .Bjszrztotal {
+  width: 100%;
+  top: 36px;
+}
+.index-page .rightAindex .Completion-unit .Completion-unit-cnt .Completion-unit-cnt-right .completionUnitTopToadyBar .Zgdxfinish {
+  width: 50%;
+  top: 58px;
+}
+.index-page .rightAindex .Completion-unit .Completion-unit-cnt .Completion-unit-cnt-right .completionUnitTopToadyBar .Zgdxtotal {
+  width: 67%;
+  top: 62px;
+}
+.index-page .rightAindex .Completion-unit .Completion-unit-cnt .Completion-unit-cnt-right .completionUnitTopToadyBar .Ljcltfinish {
+  width: 40%;
+  top: 84px;
+}
+.index-page .rightAindex .Completion-unit .Completion-unit-cnt .Completion-unit-cnt-right .completionUnitTopToadyBar .Ljclttotal {
+  width: 67%;
+  top: 88px;
+}
+.index-page .rightAindex .Completion-unit .Completion-unit-cnt .Completion-unit-cnt-right .completionUnitTopToadyBar .Hzthfinish {
+  width: 40%;
+  top: 110px;
+}
+.index-page .rightAindex .Completion-unit .Completion-unit-cnt .Completion-unit-cnt-right .completionUnitTopToadyBar .Hzthtotal {
+  width: 77%;
+  top: 114px;
+}
+.index-page .rightAindex .Completion-unit .Completion-unit-cnt .Completion-unit-cnt-right .completionUnitTopToadyBar .Hzthfinish {
+  width: 40%;
+  top: 110px;
+}
+.index-page .rightAindex .Completion-unit .Completion-unit-cnt .Completion-unit-cnt-right .completionUnitTopToadyBar .Hzthtotal {
+  width: 67%;
+  top: 114px;
+}
+.index-page .rightAindex .Completion-unit .Completion-unit-cnt .Completion-unit-cnt-right .completionUnitTopToadyBar .Zstfinish {
+  width: 40%;
+  top: 136px;
+}
+.index-page .rightAindex .Completion-unit .Completion-unit-cnt .Completion-unit-cnt-right .completionUnitTopToadyBar .Zstttotal {
+  width: 87%;
+  top: 140px;
+}
+.index-page .rightAindex .Completion-unit .Completion-unit-cnt .Completion-unit-cnt-right .completionUnitTopToadyBar .Xjwwfinish {
+  width: 67%;
+  top: 162px;
+}
+.index-page .rightAindex .Completion-unit .Completion-unit-cnt .Completion-unit-cnt-right .completionUnitTopToadyBar .Xjwwtotal {
+  width: 40%;
+  top: 166px;
+}
+.index-page .rightAindex .Completion-unit .Completion-unit-cnt .Completion-unit-cnt-right .completionUnitTopToadyBar .Dtghfinish {
+  width: 47%;
+  top: 188px;
+}
+.index-page .rightAindex .Completion-unit .Completion-unit-cnt .Completion-unit-cnt-right .completionUnitTopToadyBar .Dtghtotal {
+  width: 40%;
+  top: 192px;
+}
+.index-page .rightAindex .Completion-unit .Completion-unit-cnt .Completion-unit-cnt-right .completionUnitTopToadyBar .Zgrjfinish {
+  width: 67%;
+  top: 214px;
+}
+.index-page .rightAindex .Completion-unit .Completion-unit-cnt .Completion-unit-cnt-right .completionUnitTopToadyBar .Zgrjtotal {
+  width: 37%;
+  top: 218px;
+}
+.index-page .rightAindex .Completion-unit .Completion-unit-cnt .Completion-unit-cnt-right .completionUnitTopToadyBar .Hywffinish {
+  width: 57%;
+  top: 240px;
+}
+.index-page .rightAindex .Completion-unit .Completion-unit-cnt .Completion-unit-cnt-right .completionUnitTopToadyBar .Hywftotal {
+  width: 17%;
+  top: 244px;
+}
+.index-page .rightAindex .Completion-unit .Completion-unit-cnt .Completion-unit-cnt-right .completionUnitTopToadyBar .SiWeifinishWeek {
+  width: 50%;
+  top: 6px;
+}
+.index-page .rightAindex .Completion-unit .Completion-unit-cnt .Completion-unit-cnt-right .completionUnitTopToadyBar .SiWeitotalWeek {
+  width: 20%;
+  top: 10px;
+}
+.index-page .rightAindex .Completion-unit .Completion-unit-cnt .Completion-unit-cnt-right .completionUnitTopToadyBar .BjszrzfinishWeek {
+  width: 67%;
+  top: 32px;
+}
+.index-page .rightAindex .Completion-unit .Completion-unit-cnt .Completion-unit-cnt-right .completionUnitTopToadyBar .BjszrztotalWeek {
+  width: 40%;
+  top: 36px;
+}
+.index-page .rightAindex .Completion-unit .Completion-unit-cnt .Completion-unit-cnt-right .completionUnitTopToadyBar .ZgdxfinishWeek {
+  width: 80%;
+  top: 58px;
+}
+.index-page .rightAindex .Completion-unit .Completion-unit-cnt .Completion-unit-cnt-right .completionUnitTopToadyBar .ZgdxtotalWeek {
+  width: 47%;
+  top: 62px;
+}
+.index-page .rightAindex .Completion-unit .Completion-unit-cnt .Completion-unit-cnt-right .completionUnitTopToadyBar .LjcltfinishWeek {
+  width: 80%;
+  top: 84px;
+}
+.index-page .rightAindex .Completion-unit .Completion-unit-cnt .Completion-unit-cnt-right .completionUnitTopToadyBar .LjclttotalWeek {
+  width: 27%;
+  top: 88px;
+}
+.index-page .rightAindex .Completion-unit .Completion-unit-cnt .Completion-unit-cnt-right .completionUnitTopToadyBar .HzthfinishWeek {
+  width: 50%;
+  top: 110px;
+}
+.index-page .rightAindex .Completion-unit .Completion-unit-cnt .Completion-unit-cnt-right .completionUnitTopToadyBar .HzthtotalWeek {
+  width: 37%;
+  top: 114px;
+}
+.index-page .rightAindex .Completion-unit .Completion-unit-cnt .Completion-unit-cnt-right .completionUnitTopToadyBar .HzthfinishWeek {
+  width: 40%;
+  top: 110px;
+}
+.index-page .rightAindex .Completion-unit .Completion-unit-cnt .Completion-unit-cnt-right .completionUnitTopToadyBar .HzthtotalWeek {
+  width: 67%;
+  top: 114px;
+}
+.index-page .rightAindex .Completion-unit .Completion-unit-cnt .Completion-unit-cnt-right .completionUnitTopToadyBar .ZstfinishWeek {
+  width: 80%;
+  top: 136px;
+}
+.index-page .rightAindex .Completion-unit .Completion-unit-cnt .Completion-unit-cnt-right .completionUnitTopToadyBar .ZstttotalWeek {
+  width: 37%;
+  top: 140px;
+}
+.index-page .rightAindex .Completion-unit .Completion-unit-cnt .Completion-unit-cnt-right .completionUnitTopToadyBar .XjwwfinishWeek {
+  width: 27%;
+  top: 162px;
+}
+.index-page .rightAindex .Completion-unit .Completion-unit-cnt .Completion-unit-cnt-right .completionUnitTopToadyBar .XjwwtotalWeek {
+  width: 10%;
+  top: 166px;
+}
+.index-page .rightAindex .Completion-unit .Completion-unit-cnt .Completion-unit-cnt-right .completionUnitTopToadyBar .DtghfinishWeek {
+  width: 27%;
+  top: 188px;
+}
+.index-page .rightAindex .Completion-unit .Completion-unit-cnt .Completion-unit-cnt-right .completionUnitTopToadyBar .DtghtotalWeek {
+  width: 70%;
+  top: 192px;
+}
+.index-page .rightAindex .Completion-unit .Completion-unit-cnt .Completion-unit-cnt-right .completionUnitTopToadyBar .ZgrjfinishWeek {
+  width: 37%;
+  top: 214px;
+}
+.index-page .rightAindex .Completion-unit .Completion-unit-cnt .Completion-unit-cnt-right .completionUnitTopToadyBar .ZgrjtotalWeek {
+  width: 57%;
+  top: 218px;
+}
+.index-page .rightAindex .Completion-unit .Completion-unit-cnt .Completion-unit-cnt-right .completionUnitTopToadyBar .HywffinishWeek {
+  width: 67%;
+  top: 240px;
+}
+.index-page .rightAindex .Completion-unit .Completion-unit-cnt .Completion-unit-cnt-right .completionUnitTopToadyBar .HywftotalWeek {
+  width: 97%;
+  top: 244px;
+}
+.index-page .rightAindex .Completion-unit .Completion-unit-cnt .Completion-unit-cnt-right .completionUnitTopToadyBar .SiWeifinishMonth {
+  width: 40%;
+  top: 6px;
+}
+.index-page .rightAindex .Completion-unit .Completion-unit-cnt .Completion-unit-cnt-right .completionUnitTopToadyBar .SiWeitotalMonth {
+  width: 60%;
+  top: 10px;
+}
+.index-page .rightAindex .Completion-unit .Completion-unit-cnt .Completion-unit-cnt-right .completionUnitTopToadyBar .BjszrzfinishMonth {
+  width: 47%;
+  top: 32px;
+}
+.index-page .rightAindex .Completion-unit .Completion-unit-cnt .Completion-unit-cnt-right .completionUnitTopToadyBar .BjszrztotalMonth {
+  width: 30%;
+  top: 36px;
+}
+.index-page .rightAindex .Completion-unit .Completion-unit-cnt .Completion-unit-cnt-right .completionUnitTopToadyBar .ZgdxfinishMonth {
+  width: 70%;
+  top: 58px;
+}
+.index-page .rightAindex .Completion-unit .Completion-unit-cnt .Completion-unit-cnt-right .completionUnitTopToadyBar .ZgdxtotalMonth {
+  width: 97%;
+  top: 62px;
+}
+.index-page .rightAindex .Completion-unit .Completion-unit-cnt .Completion-unit-cnt-right .completionUnitTopToadyBar .LjcltfinishMonth {
+  width: 30%;
+  top: 84px;
+}
+.index-page .rightAindex .Completion-unit .Completion-unit-cnt .Completion-unit-cnt-right .completionUnitTopToadyBar .LjclttotalMonth {
+  width: 27%;
+  top: 88px;
+}
+.index-page .rightAindex .Completion-unit .Completion-unit-cnt .Completion-unit-cnt-right .completionUnitTopToadyBar .HzthfinishMonth {
+  width: 10%;
+  top: 110px;
+}
+.index-page .rightAindex .Completion-unit .Completion-unit-cnt .Completion-unit-cnt-right .completionUnitTopToadyBar .HzthtotalMonth {
+  width: 97%;
+  top: 114px;
+}
+.index-page .rightAindex .Completion-unit .Completion-unit-cnt .Completion-unit-cnt-right .completionUnitTopToadyBar .HzthfinishMonth {
+  width: 40%;
+  top: 110px;
+}
+.index-page .rightAindex .Completion-unit .Completion-unit-cnt .Completion-unit-cnt-right .completionUnitTopToadyBar .HzthtotalMonth {
+  width: 37%;
+  top: 114px;
+}
+.index-page .rightAindex .Completion-unit .Completion-unit-cnt .Completion-unit-cnt-right .completionUnitTopToadyBar .ZstfinishMonth {
+  width: 20%;
+  top: 136px;
+}
+.index-page .rightAindex .Completion-unit .Completion-unit-cnt .Completion-unit-cnt-right .completionUnitTopToadyBar .ZstttotalMonth {
+  width: 37%;
+  top: 140px;
+}
+.index-page .rightAindex .Completion-unit .Completion-unit-cnt .Completion-unit-cnt-right .completionUnitTopToadyBar .XjwwfinishMonth {
+  width: 87%;
+  top: 162px;
+}
+.index-page .rightAindex .Completion-unit .Completion-unit-cnt .Completion-unit-cnt-right .completionUnitTopToadyBar .XjwwtotalMonth {
+  width: 10%;
+  top: 166px;
+}
+.index-page .rightAindex .Completion-unit .Completion-unit-cnt .Completion-unit-cnt-right .completionUnitTopToadyBar .DtghfinishMonth {
+  width: 37%;
+  top: 188px;
+}
+.index-page .rightAindex .Completion-unit .Completion-unit-cnt .Completion-unit-cnt-right .completionUnitTopToadyBar .DtghtotalMonth {
+  width: 90%;
+  top: 192px;
+}
+.index-page .rightAindex .Completion-unit .Completion-unit-cnt .Completion-unit-cnt-right .completionUnitTopToadyBar .ZgrjfinishMonth {
+  width: 27%;
+  top: 214px;
+}
+.index-page .rightAindex .Completion-unit .Completion-unit-cnt .Completion-unit-cnt-right .completionUnitTopToadyBar .ZgrjtotalMonth {
+  width: 77%;
+  top: 218px;
+}
+.index-page .rightAindex .Completion-unit .Completion-unit-cnt .Completion-unit-cnt-right .completionUnitTopToadyBar .HywffinishMonth {
+  width: 47%;
+  top: 240px;
+}
+.index-page .rightAindex .Completion-unit .Completion-unit-cnt .Completion-unit-cnt-right .completionUnitTopToadyBar .HywftotalMonth {
+  width: 37%;
+  top: 244px;
+}
+.index-page .rightAindex .Completion-unit .Completion-unit-cnt .Completion-unit-cnt-right .Completion-unit-cnt-right-bottom {
+  width: 100%;
+  height: 24px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+.index-page .rightAindex .Completion-unit .Completion-unit-cnt .Completion-unit-cnt-right .Completion-unit-cnt-right-bottom ul {
+  margin-top: 4px;
+  width: 100%;
+  height: 30px;
+}
+.index-page .rightAindex .Completion-unit .Completion-unit-cnt .Completion-unit-cnt-right .Completion-unit-cnt-right-bottom ul li {
+  float: left;
+  display: inline-block;
+  width: 12.5%;
+  height: 30px;
+  text-align: right;
+}
+.index-page .rightAindex .Completion-unit .Completion-unit-cnt .Completion-unit-cnt-right .Completion-unit-cnt-right-bottom ul li .Completiontxtleft {
+  float: left;
+}
+.index-page .rightAindex .Completion-unit .Completion-unit-cnt .Completion-unit-cnt-right .Completion-unit-cnt-right-bottom ul li .Completiontxtright {
+  float: right;
+}
+.index-page .rightAindex .Completion-unit .Completion-unit-bottom {
+  margin-right: 16px;
+  line-height: 80px;
+  margin-left: 16px;
+}
+.index-page .rightAindex .Completion-unit .Completion-unit-bottom li {
+  float: left;
+  margin-right: 20px;
+}
+.index-page .rightAindex .Completion-unit .Completion-unit-bottom li .Completion-unit-bottom-grey {
+  width: 12px;
+  height: 12px;
+  display: inline-block;
+  background: gray;
+}
+.index-page .rightAindex .Completion-unit .Completion-unit-bottom li .Completion-unit-bottom-pink {
+  width: 12px;
+  height: 12px;
+  display: inline-block;
+  background: #66c877;
+}
+.index-page .rightAindex .Equipment-test {
+  height: 380px;
+  width: 100%;
+  margin-top: 16px;
+}
+.index-page .rightAindex .Equipment-test .Equipment-test-top {
+  margin-right: 16px;
+  height: 50px;
+  margin-left: 16px;
+  border-bottom: 1px solid #eaedf1;
+  background: #ffffff url("images/spjc_03.png") no-repeat center left;
+}
+.index-page .rightAindex .Equipment-test .Equipment-test-cnt {
+  height: 310px;
+  display: -webkit-box;
+}
+.index-page .rightAindex .Equipment-test .Equipment-test-cnt .Equipment-test-cnt-left {
+  width: 258px;
+  height: 310px;
+  margin-left: 16px;
+}
+.index-page .rightAindex .Equipment-test .Equipment-test-cnt .Equipment-test-cnt-left .EquipmentkongTop {
+  height: 22px;
+  width: 100%;
+}
+.index-page .rightAindex .Equipment-test .Equipment-test-cnt .Equipment-test-cnt-left .Equipment-test-cnt-left-top {
+  width: 258px;
+  height: 248px;
+  display: -webkit-box;
+  border-bottom: 1px solid #eaedf1;
+}
+.index-page .rightAindex .Equipment-test .Equipment-test-cnt .Equipment-test-cnt-left .Equipment-test-cnt-left-top div {
+  -webkit-box-flex: 1;
+  width: 258px;
+  height: 248px;
+  position: relative;
+}
+.index-page .rightAindex .Equipment-test .Equipment-test-cnt .Equipment-test-cnt-left .Equipment-test-cnt-left-top div span {
+  position: absolute;
+  bottom: 0;
+  left: 17px;
+  border-top-right-radius: 4px;
+  border-top-left-radius: 4px;
+  display: inline-block;
+  width: 30px;
+}
+.index-page .rightAindex .Equipment-test .Equipment-test-cnt .Equipment-test-cnt-left .Equipment-test-cnt-left-top div .Equipment-test-cnt-left-top-normal {
+  height: 100%;
+  background: #66c877;
+}
+.index-page .rightAindex .Equipment-test .Equipment-test-cnt .Equipment-test-cnt-left .Equipment-test-cnt-left-top div .Equipment-test-cnt-left-top-error {
+  height: 50%;
+  background: #6991ee;
+}
+.index-page .rightAindex .Equipment-test .Equipment-test-cnt .Equipment-test-cnt-left .Equipment-test-cnt-left-top div .Equipment-test-cnt-left-top-danger {
+  height: 30%;
+  background: #e19577;
+}
+.index-page .rightAindex .Equipment-test .Equipment-test-cnt .Equipment-test-cnt-left .Equipment-test-cnt-left-top div .Equipment-test-cnt-left-top-forbid {
+  height: 10%;
+  background: #db8cd4;
+}
+.index-page .rightAindex .Equipment-test .Equipment-test-cnt .Equipment-test-cnt-left .Equipment-test-cnt-left-bottom {
+  height: 40px;
+  width: 100%;
+}
+.index-page .rightAindex .Equipment-test .Equipment-test-cnt .Equipment-test-cnt-left .Equipment-test-cnt-left-bottom ul {
+  height: 40px;
+  display: -webkit-box;
+}
+.index-page .rightAindex .Equipment-test .Equipment-test-cnt .Equipment-test-cnt-left .Equipment-test-cnt-left-bottom ul li {
+  position: relative;
+  -webkit-box-flex: 1;
+  text-align: center;
+  line-height: 40px;
+}
+.index-page .rightAindex .Equipment-test .Equipment-test-cnt .Equipment-test-cnt-right {
+  margin-right: 16px;
+  position: relative;
+  width: 0;
+  -webkit-box-flex: 1;
+}
+.index-page .rightAindex .Equipment-test .Equipment-test-cnt .Equipment-test-cnt-right .EquipmentkongTop {
+  height: 22px;
+  width: 100%;
+}
+.index-page .rightAindex .Equipment-test .Equipment-test-cnt .Equipment-test-cnt-right .EquipmentTestTxtTop {
+  width: 100%;
+  height: 36px;
+  display: -webkit-box;
+  border-bottom: 1px solid #eaedf1;
+}
+.index-page .rightAindex .Equipment-test .Equipment-test-cnt .Equipment-test-cnt-right .EquipmentTestTxtTop div {
+  width: 0;
+  position: relative;
+  -webkit-box-flex: 1;
+  font-size: 18px;
+  text-align: center;
+  line-height: 36px;
+  cursor: pointer;
+  color: #666666;
+}
+.index-page .rightAindex .Equipment-test .Equipment-test-cnt .Equipment-test-cnt-right .equipmentTestTxt {
+  width: 100%;
+  height: 252px;
+}
+.index-page .rightAindex .Equipment-test .Equipment-test-cnt .Equipment-test-cnt-right .equipmentTestTxt .EquipmentTestTxtNormal-n {
+  overflow: hidden;
+}
+.index-page .rightAindex .Equipment-test .Equipment-test-cnt .Equipment-test-cnt-right .equipmentTestTxt .EquipmentTestTxtNormal-n ul .EquipmentTestTxtNormal-left {
+  float: left;
+  width: 166px;
+  line-height: 30px;
+  font-size: 14px;
+}
+.index-page .rightAindex .Equipment-test .Equipment-test-cnt .Equipment-test-cnt-right .equipmentTestTxt .EquipmentTestTxtNormal-n ul .EquipmentTestTxtNormal-left span {
+  display: inline-block;
+  vertical-align: middle;
+}
+.index-page .rightAindex .Equipment-test .Equipment-test-cnt .Equipment-test-cnt-right .equipmentTestTxt .EquipmentTestTxtNormal-n ul .EquipmentTestTxtNormal-left .EquipmentTestTxtNormal-disc {
+  height: 4px;
+  width: 4px;
+  background: #adadad;
+  border-radius: 50%;
+  margin-right: 8px;
+}
+.index-page .rightAindex .Equipment-test .Equipment-test-cnt .Equipment-test-cnt-right .equipmentTestTxt .EquipmentTestTxtNormal-n ul .EquipmentTestTxtNormal-right {
+  float: right;
+  width: 200px;
+  line-height: 30px;
+  color: #a0a0a0;
+  text-align: right;
+}
+.index-page .rightAindex .Equipment-test .Equipment-test-cnt .Equipment-test-cnt-right .equipmentTestTxt .EquipmentTestTxtNormal-n ul .EquipmentTestTxtNormal-right .EquipmentTestTxtNormal-percent {
+  margin-right: 42px;
+}
+/*# sourceMappingURL=index.css.map*/

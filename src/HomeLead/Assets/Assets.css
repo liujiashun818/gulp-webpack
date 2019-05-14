@@ -1,0 +1,143 @@
+.yuwei2 {
+  width: 100%;
+  min-height: 1070px;
+  background: #eef5f8;
+  display: -webkit-box;
+  position: relative;
+  font-family: "微软雅黑";
+}
+.yuwei2 .systemleft {
+  width: 200px;
+  cursor: pointer;
+  height: auto;
+  background: #2d3945;
+  border: 1px solid darkblue;
+  display: block;
+}
+.yuwei2 .systemleft .systemTop {
+  line-height: 60px;
+  width: 200px;
+  text-align: center;
+}
+.yuwei2 .systemleft .systemTop b {
+  font-size: 18px;
+  color: #0099cc;
+  font-weight: 200;
+}
+.yuwei2 .systemleft section {
+  background: #36424e;
+  height: auto;
+}
+.yuwei2 .systemleft section ul .hoverOn {
+  background: #009fcc;
+}
+.yuwei2 .systemleft section ul li:hover {
+  background: #344c63;
+}
+.yuwei2 .systemleft section ul li:hover b {
+  color: white;
+  font-weight: 200;
+}
+.yuwei2 .systemleft section ul .hidEventMangr {
+  display: none;
+}
+.yuwei2 .systemleft section ul .hidEventMangr .hoverEvenManger:hover {
+  background: #344c63;
+}
+.yuwei2 .systemleft section ul .hidEventMangr .hoverEvenManger:hover b {
+  color: white;
+}
+.yuwei2 .systemleft section ul .hidEventMangr .hoverEvenManger {
+  line-height: 50px;
+  width: 200px;
+  color: #e0e1e1;
+  font-size: 16px;
+}
+.yuwei2 .systemleft section ul .hidEventMangr .hoverEvenManger .imgright2 {
+  margin-bottom: 4px;
+  margin-left: 48px;
+}
+.yuwei2 .systemleft section ul .hidEventMangr .hoverEvenManger .imgrightHid2 {
+  display: none;
+}
+.yuwei2 .systemleft section ul .hidEventMangr .hoverEvenManger b {
+  margin-left: 12px;
+  color: #e0e1e1;
+  font-weight: 200;
+}
+.yuwei2 .systemleft section ul .hidEventMangr .hoverEvenManger .bColor {
+  color: white;
+}
+.yuwei2 .systemleft section ul .hidReportManger {
+  display: none;
+}
+.yuwei2 .systemleft section ul .hidReportManger .hoverEvenManger:hover {
+  background: #344c63;
+}
+.yuwei2 .systemleft section ul .hidReportManger .hoverEvenManger:hover b {
+  color: white;
+}
+.yuwei2 .systemleft section ul .hidReportManger .hoverOn {
+  background: #009fcc;
+}
+.yuwei2 .systemleft section ul .hidReportManger .hoverEvenManger {
+  line-height: 50px;
+  width: 200px;
+  font-size: 16px;
+  color: #e0e1e1;
+}
+.yuwei2 .systemleft section ul .hidReportManger .hoverEvenManger .imgright2 {
+  margin-bottom: 4px;
+  margin-left: 48px;
+}
+.yuwei2 .systemleft section ul .hidReportManger .hoverEvenManger .imgrightHid2 {
+  display: none;
+}
+.yuwei2 .systemleft section ul .hidReportManger .hoverEvenManger b {
+  margin-left: 12px;
+  color: #e0e1e1;
+  font-weight: 200;
+}
+.yuwei2 .systemleft section ul .hidReportManger .hoverEvenManger .bColor {
+  color: white;
+}
+.yuwei2 .systemleft section ul li {
+  line-height: 50px;
+  width: 200px;
+  font-size: 16px;
+  display: inline-block;
+  color: #e0e1e1;
+}
+.yuwei2 .systemleft section ul li .imgleft {
+  margin-bottom: 4px;
+  margin-left: 20px;
+}
+.yuwei2 .systemleft section ul li .imgleftLight {
+  display: none;
+}
+.yuwei2 .systemleft section ul li .imgright {
+  margin-bottom: 4px;
+  margin-left: 44px;
+}
+.yuwei2 .systemleft section ul li .imgrightHid {
+  display: none;
+  margin-bottom: 4px;
+  margin-left: 44px;
+}
+.yuwei2 .systemleft section ul li b {
+  margin-left: 24px;
+  color: #e0e1e1;
+  font-weight: 200;
+}
+.yuwei2 .systemleft section ul li .bColor {
+  color: white;
+}
+.yuwei2 .rightYunwei2 {
+  -webkit-box-flex: 1;
+  margin-left: 16px;
+  background: white;
+  margin-top: 16px;
+  margin-right: 16px;
+  margin-bottom: 16px;
+}
+/*# sourceMappingURL=Assets.css.map */

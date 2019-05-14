@@ -1,0 +1,237 @@
+.rightFauleManger {
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+}
+.rightFauleManger .asideFauleManger {
+  width: 16px;
+}
+.rightFauleManger .sectionFauleManger {
+  -webkit-box-flex: 1;
+  margin-right: 16px;
+  min-height: 1070px;
+  overflow: hidden;
+  position: relative;
+}
+.rightFauleManger .sectionFauleManger .navFauleManger {
+  width: 100%;
+  height: 52px;
+  border-bottom: 1px solid #eaedf1;
+  display: -webkit-box;
+}
+.rightFauleManger .sectionFauleManger .navFauleManger .usermanagerNavLeft {
+  width: 170px;
+  line-height: 52px;
+  font-size: 16px;
+}
+.rightFauleManger .sectionFauleManger .navFauleManger .usermanagerNavLeft .fauleMangerline {
+  float: left;
+  height: 52px;
+  width: 6px;
+  margin-right: 8px;
+}
+.rightFauleManger .sectionFauleManger .navFauleManger .usermanagerNavLeft .fauleMangerline span {
+  width: 4px;
+  height: 16px;
+  background: #8eddf2;
+  display: block;
+  line-height: 58px;
+  margin-top: 20px;
+}
+.rightFauleManger .sectionFauleManger .navFauleManger .usermanagerNavLeft .txtFauleMangerleft {
+  height: 52px;
+  width: 164px;
+  line-height: 52px;
+}
+.rightFauleManger .sectionFauleManger .navFauleManger .usermanagerNavLeft .txtFauleMangerleft span {
+  margin-left: 8px;
+}
+.rightFauleManger .sectionFauleManger .navFauleManger .usermanagerNavLeft .txtFauleMangerleft span .agentYunwei {
+  color: #00adda;
+}
+.rightFauleManger .sectionFauleManger .navFauleManger .usermanagerNavRight {
+  -webkit-box-flex: 1;
+}
+.rightFauleManger .sectionFauleManger .navFauleManger .usermanagerNavRight .usermanagerNavRightP {
+  float: right;
+  margin-top: 12px;
+  margin-right: 1%;
+  display: inline-block;
+}
+.rightFauleManger .sectionFauleManger .navFauleManger .usermanagerNavRight .usermanagerNavRightP .newJiao {
+  width: 80px;
+  height: 30px;
+  text-align: center;
+  background: #e19577;
+  border-radius: 4px;
+  color: white;
+  border: none;
+}
+.rightFauleManger .sectionFauleManger .navFauleManger .usermanagerNavRight .usermanagerNavRightP .onload {
+  height: 30px;
+  width: 68px;
+  text-align: center;
+  background: #f6f7f8;
+  color: black;
+  border: 1px solid gainsboro;
+  border-radius: 4px;
+}
+.rightFauleManger .sectionFauleManger .navFauleManger .usermanagerNavRight .usermanagerNavRightP .moreConditions {
+  height: 30px;
+  line-height: 30px;
+  width: 74px;
+  border-radius: 4px;
+  background: #aac0ae;
+  color: white;
+  border: none;
+}
+.rightFauleManger .sectionFauleManger .navFauleManger .usermanagerNavRight .usermanagerNavRightP .ctnTxtFauleManger {
+  height: 30px;
+  text-align: left;
+  width: 240px;
+  float: left;
+  border: none;
+}
+.rightFauleManger .sectionFauleManger .navFauleManger .usermanagerNavRight .usermanagerNavRightP .SeachFauleManger {
+  height: 30px;
+  color: white;
+  width: 58px;
+  text-align: center;
+  background: #74cf84;
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+  border: none;
+  float: right;
+}
+.rightFauleManger .sectionFauleManger .navFauleManger .usermanagerNavRight .TxtFauleManger {
+  width: 300px;
+  border: 1px solid gainsboro;
+  border-radius: 4px;
+}
+.rightFauleManger .sectionFauleManger .navFauleManger .usermanagerNavRight .exportFauleManger {
+  margin-right: 0;
+  width: 32px;
+  height: 30px;
+  border: 1px solid gainsboro;
+  border-radius: 4px;
+  background: white url("../images/export_03.png") no-repeat center center;
+}
+.rightFauleManger .sectionFauleManger .OnMoreConditions {
+  width: 100%;
+  height: auto;
+  border: 2px solid #aac0ae;
+  display: none;
+  position: absolute;
+  top: 52px;
+  left: 0;
+  z-index: 246;
+  background: white;
+}
+.rightFauleManger .sectionFauleManger .OnMoreConditions .FromMoreCon {
+  width: 100%;
+  height: auto;
+  display: -webkit-box;
+  margin-top: 20px;
+}
+.rightFauleManger .sectionFauleManger .OnMoreConditions .FromMoreCon .fromMoreCondiv {
+  -webkit-box-flex: 1;
+}
+.rightFauleManger .sectionFauleManger .OnMoreConditions .FromMoreCon .fromMoreCondiv p {
+  width: 100%;
+  margin-bottom: 14px;
+  height: 30px;
+}
+.rightFauleManger .sectionFauleManger .OnMoreConditions .FromMoreCon .fromMoreCondiv p label {
+  line-height: 28px;
+  width: 65px;
+  font-size: 14px;
+  float: left;
+  margin-left: 16px;
+  font-weight: 500;
+}
+.rightFauleManger .sectionFauleManger .OnMoreConditions .FromMoreCon .fromMoreCondiv p .selectBg {
+  background: url("../images/select-3_03.png") no-repeat center right;
+  background-size: 28px 28px;
+  width: 212px;
+  height: 28px;
+  appearance: none;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+}
+.rightFauleManger .sectionFauleManger .OnMoreConditions .FromMoreCon .fromMoreCondiv p input {
+  width: 212px;
+  height: 28px;
+}
+.rightFauleManger .sectionFauleManger .OnMoreConditions .FromMoreCon .midFromMoreCon {
+  margin-right: 2%;
+  margin-left: 2%;
+}
+.rightFauleManger .sectionFauleManger .OnMoreConditions .FromMoreCon .midFromMoreCon .midMoreConBotm {
+  width: 100%;
+  margin-bottom: 14px;
+  height: 30px;
+}
+.rightFauleManger .sectionFauleManger .OnMoreConditions .FromMoreCon .midFromMoreCon .midMoreConBotm .midMoreConBotmdiv {
+  width: 200px;
+  height: 32px;
+  margin: 0 auto;
+}
+.rightFauleManger .sectionFauleManger .OnMoreConditions .FromMoreCon .midFromMoreCon .midMoreConBotm .midMoreConBotmdiv input {
+  width: 54px;
+  height: 30px;
+  line-height: 30px;
+  border: 1px solid #eaedf1;
+  color: #349ef0;
+  background: white;
+}
+.rightFauleManger .sectionFauleManger .OnMoreConditions .FromMoreCon .midFromMoreCon .midMoreConBotm .midMoreConBotmdiv .inputMidMoreCon {
+  margin-right: 10px;
+  margin-left: 10px;
+}
+.rightFauleManger .sectionFauleManger .mainFauleManger {
+  height: 1000px;
+  margin-top: 16px;
+  z-index: 245;
+}
+.rightFauleManger .sectionFauleManger .mainFauleManger .handleYunweiDoRightTic {
+  position: absolute;
+  top: -10px;
+  left: 0;
+  width: 44px;
+  height: 20px;
+  border: 1px solid #9d9d9d;
+  background: #f4f4f4;
+  color: black;
+  line-height: 20px;
+  text-align: center;
+  cursor: pointer;
+  display: none;
+}
+.rightFauleManger .sectionFauleManger .mainFauleManger .roamYunweiDoRightTic {
+  cursor: pointer;
+  position: absolute;
+  top: -10px;
+  right: 0;
+  width: 44px;
+  height: 20px;
+  border: 1px solid #9d9d9d;
+  background: #f4f4f4;
+  color: black;
+  line-height: 20px;
+  text-align: center;
+  display: none;
+}
+.rightFauleManger .sectionFauleManger .mainFauleManger .roamYunweiDoRight {
+  margin-left: 32px;
+}
+.rightFauleManger .sectionFauleManger .mainFauleManger .handleYunweiDoRight {
+  margin-left: 6px;
+}
+.rightFauleManger .sectionFauleManger .mainFauleManger .commentYunweiDoRight,
+.rightFauleManger .sectionFauleManger .mainFauleManger .closeYunweiDoRight {
+  display: none;
+}
+.rightFauleManger .sectionFauleManger .mainFauleManger .commentYunweiDoRightTic,
+.rightFauleManger .sectionFauleManger .mainFauleManger .closeYunweiDoRightTic {
+  display: none;
+}

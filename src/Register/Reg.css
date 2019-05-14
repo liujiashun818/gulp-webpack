@@ -1,0 +1,245 @@
+.regContainer {
+  width: 100%;
+  height: auto;
+  background-size: 100%;
+}
+.regContainer .regHeader {
+  float: left;
+  width: 100%;
+  height: 60px;
+  position: relative;
+  display: block;
+}
+.regContainer .regHeader .regLogo {
+  float: left;
+  width: 100%;
+  background: #00adda;
+  height: 60px;
+}
+.regContainer .regHeader .regLogo .headZ {
+  float: right;
+  width: 240px;
+  height: 30px;
+  margin-top: 15px;
+}
+.regContainer .regHeader .regLogo .headZ .headLogin {
+  font-size: 14px;
+  font-weight: bold;
+  color: #ffffff;
+}
+.regContainer .regHeader .regLogo .headZ .headButton {
+  height: 30px;
+  width: 70px;
+  background-color: #efefef;
+  border-radius: 4px;
+  border-style: none;
+  border: none;
+  -webkit-border-radius: 4px;
+  font-weight: bold;
+  color: #383838;
+  font-size: 14px;
+  margin-left: 10px;
+}
+.regContainer .main {
+  float: left;
+  width: 100%;
+  height: 760px;
+  position: relative;
+  background: white;
+}
+.regContainer .main #register {
+  float: left;
+  width: 826px;
+  margin: 0 auto;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  height: 720px;
+}
+.regContainer .main #register #registerForm {
+  float: left;
+  width: 826px;
+  position: absolute;
+  height: 720px;
+}
+.regContainer .main #register #registerForm .formContent {
+  width: 730px;
+  margin-left: 120px;
+  padding-top: 20px;
+}
+.regContainer .main #register #registerForm .formContent .line {
+  width: 706px;
+  float: left;
+  margin-top: 15px;
+  line-height: 35px;
+}
+.regContainer .main #register #registerForm .formContent .line .tag {
+  width: 75px;
+  float: left;
+  text-align: right;
+  line-height: 35px;
+  font-weight: bold;
+}
+.regContainer .main #register #registerForm .formContent .line .head {
+  font-size: 18px;
+  color: #1b1b1b;
+  font-weight: bold;
+}
+.regContainer .main #register #registerForm .formContent .line .label1 {
+  width: 350px;
+  margin-left: 20px;
+  float: left;
+  overflow: hidden;
+  line-height: 35px;
+  font-size: 14px;
+  color: #999999;
+}
+.regContainer .main #register #registerForm .formContent .line .input {
+  line-height: 35px;
+  padding-left: 10px;
+  width: 268px;
+  float: left;
+  overflow: hidden;
+  border: 1px solid #d0d0d0;
+  height: 31px;
+  margin-left: 10px;
+}
+.regContainer .main #register #registerForm .formContent .line .help-inline {
+  float: left;
+  height: 35px;
+  line-height: 35px;
+  margin-left: 10px;
+  color: #b0b0b0;
+  font-size: 14px;
+}
+.regContainer .main #register #registerForm .formContent .line .help-inline {
+  position: relative;
+  margin-left: -2000px;
+}
+.regContainer .main #register #registerForm .formContent .line .help-inline::before {
+  display: block;
+}
+.regContainer .main #register #registerForm .formContent .line input:active + .help-inline,
+.regContainer .main #register #registerForm .formContent .line input:focus + .help-inline {
+  margin-left: 10px;
+}
+.regContainer .main #register #registerForm .formContent .line #usernameRight,
+.regContainer .main #register #registerForm .formContent .line #phoneRight,
+.regContainer .main #register #registerForm .formContent .line #password1Right,
+.regContainer .main #register #registerForm .formContent .line #passwordRight,
+.regContainer .main #register #registerForm .formContent .line #emailRight,
+.regContainer .main #register #registerForm .formContent .line #nameRight,
+.regContainer .main #register #registerForm .formContent .line #employerRight,
+.regContainer .main #register #registerForm .formContent .line #titleRight {
+  float: left;
+  overflow: hidden;
+  line-height: 35px;
+  padding-left: 10px;
+  display: none;
+  font-size: 0;
+  line-height: 0;
+  text-indent: -9999px;
+}
+.regContainer .main #register #registerForm .formContent .line #usernameError,
+.regContainer .main #register #registerForm .formContent .line #phoneError,
+.regContainer .main #register #registerForm .formContent .line #password1Error,
+.regContainer .main #register #registerForm .formContent .line #passwordError,
+.regContainer .main #register #registerForm .formContent .line #emailError,
+.regContainer .main #register #registerForm .formContent .line #nameError,
+.regContainer .main #register #registerForm .formContent .line #employerError,
+.regContainer .main #register #registerForm .formContent .line #titleError {
+  display: none;
+  overflow: hidden;
+  line-height: 35px;
+  height: 34px;
+  margin-top: 1px;
+  padding-left: 10px;
+}
+.regContainer .main #register #registerForm .formContent .line #usernameError .wronU,
+.regContainer .main #register #registerForm .formContent .line #phoneError .wronU,
+.regContainer .main #register #registerForm .formContent .line #password1Error .wronU,
+.regContainer .main #register #registerForm .formContent .line #passwordError .wronU,
+.regContainer .main #register #registerForm .formContent .line #emailError .wronU,
+.regContainer .main #register #registerForm .formContent .line #nameError .wronU,
+.regContainer .main #register #registerForm .formContent .line #employerError .wronU,
+.regContainer .main #register #registerForm .formContent .line #titleError .wronU {
+  float: left;
+}
+.regContainer .main #register #registerForm .formContent .line #usernameError .wron-U,
+.regContainer .main #register #registerForm .formContent .line #phoneError .wron-U,
+.regContainer .main #register #registerForm .formContent .line #password1Error .wron-U,
+.regContainer .main #register #registerForm .formContent .line #passwordError .wron-U,
+.regContainer .main #register #registerForm .formContent .line #emailError .wron-U,
+.regContainer .main #register #registerForm .formContent .line #nameError .wron-U,
+.regContainer .main #register #registerForm .formContent .line #employerError .wron-U,
+.regContainer .main #register #registerForm .formContent .line #titleError .wron-U {
+  float: left;
+  width: 290px;
+  height: 34px;
+  line-height: 34px;
+  color: #f86464;
+  font-size: 14px;
+}
+.regContainer .main #register #registerForm .formContent .line .tel {
+  line-height: 35px;
+  padding-left: 10px;
+  width: 223px;
+  float: left;
+  overflow: hidden;
+  border: 1px solid #d0d0d0;
+  height: 31px;
+}
+.regContainer .main #register #registerForm .formContent .line .eight {
+  text-align: center;
+  background-color: #ffffff;
+  width: 45px;
+  float: left;
+  margin-left: 10px;
+  border: solid 1px #d0d0d0;
+  border-right: none;
+  height: 31px;
+  line-height: 31px;
+  color: #999999;
+}
+.regContainer .main #register #registerForm .formContent .line .select {
+  width: 268px;
+  line-height: 31px;
+  height: 31px;
+  overflow: hidden;
+  appearance: none;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  background: url("../images/select-3.jpg") no-repeat scroll right center;
+  text-align: center;
+}
+.regContainer .main #register #registerForm .formContent .line .regButton {
+  width: 268px;
+  height: 44px;
+  background-color: #97ce3a;
+  line-height: 44px;
+  margin-left: 85px;
+  margin-top: 30px;
+  border: none;
+  -webkit-border-radius: 4px;
+  font-size: 14px;
+  color: #ffffff;
+  font-weight: bold;
+}
+.regContainer .main #register #registerForm .formContent .line .regButton:hover {
+  background-color: #a0d841;
+}
+.regContainer .main #register #registerForm .formContent .one {
+  height: 225px;
+  margin-bottom: 40px;
+  margin-left: 120px;
+}
+.regContainer .main #register #registerForm .formContent .two {
+  height: 409px ;
+  margin-bottom: 70px;
+}
+.regContainer .main #register #registerForm #hrReg {
+  border: none;
+  border-bottom: 1px dashed #cccccc;
+}

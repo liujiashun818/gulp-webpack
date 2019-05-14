@@ -1,0 +1,431 @@
+.yunweiHome {
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  background: #eef5f8;
+}
+.yunweiHome .leftYunwei {
+  width: 322px;
+  margin-left: 16px;
+  margin-right: 16px;
+  margin-top: 16px;
+  background: #eef5f8;
+}
+.yunweiHome .leftYunwei .Asset-status {
+  width: 322px;
+  height: 310px;
+  background: #ffffff;
+}
+.yunweiHome .leftYunwei .Asset-status .Asset-status-top {
+  width: 290px;
+  height: 50px;
+  margin: 0 auto;
+  border-bottom: 1px solid #eaedf1;
+  background: #ffffff url("images/zczt_03.png") no-repeat center left;
+}
+.yunweiHome .leftYunwei .Asset-status .Asset-status-cnt {
+  width: 290px;
+  height: 214px;
+  margin: 0 auto;
+  position: relative;
+}
+.yunweiHome .leftYunwei .Asset-status .Asset-status-bottom {
+  width: 290px;
+  height: 40px;
+  margin: 0 auto;
+  display: -webkit-box;
+}
+.yunweiHome .leftYunwei .Asset-status .Asset-status-bottom input {
+  border: none;
+  width: 18px;
+  height: 13px;
+  text-align: center;
+}
+.yunweiHome .leftYunwei .Asset-status .Asset-status-bottom .Asset-status-roll {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  display: inline-block;
+}
+.yunweiHome .leftYunwei .Asset-status .Asset-status-bottom .green {
+  background: #6991ee;
+}
+.yunweiHome .leftYunwei .Asset-status .Asset-status-bottom .pink {
+  background: #e19577;
+}
+.yunweiHome .leftYunwei .Asset-status .Asset-status-bottom .purple {
+  background: #66c877;
+}
+.yunweiHome .leftYunwei .Asset-status .Asset-status-bottom li {
+  float: left;
+  position: relative;
+  -webkit-box-flex: 1;
+}
+.yunweiHome .leftYunwei .Asset-status .Asset-status-bottom li span {
+  margin-right: 10px;
+}
+.yunweiHome .rightYunwei {
+  -webkit-box-flex: 1;
+  margin-right: 16px;
+  margin-top: 16px;
+  background: #eef5f8;
+}
+.yunweiHome .rightYunwei div {
+  background: #ffffff;
+}
+.yunweiHome .rightYunwei .Equipment-today {
+  height: 310px;
+  width: 100%;
+}
+.yunweiHome .rightYunwei .Equipment-today .Equipment-today-top {
+  margin-right: 16px;
+  height: 50px;
+  margin-left: 16px;
+  border-bottom: 1px solid #eaedf1;
+  background: #ffffff url("images/jrspqk_03.png") no-repeat center left;
+}
+.yunweiHome .rightYunwei .Equipment-today .Equipment-today-cnt {
+  height: 214px;
+  margin-left: 16px;
+  display: -webkit-box;
+}
+.yunweiHome .rightYunwei .Equipment-today .Equipment-today-cnt .Equipmenttodaycntleft {
+  width: 50px;
+  height: 212px;
+  text-align: center;
+}
+.yunweiHome .rightYunwei .Equipment-today .Equipment-today-cnt .Equipmenttodaycntleft ul {
+  margin-top: 8px;
+}
+.yunweiHome .rightYunwei .Equipment-today .Equipment-today-cnt .Equipmenttodaycntleft ul li {
+  color: #a7a7a7;
+  margin-bottom: 22px;
+  text-align: center;
+}
+.yunweiHome .rightYunwei .Equipment-today .Equipment-today-cnt .Equipmenttodaycntright {
+  -webkit-box-flex: 1;
+  z-index: 22;
+  margin-right: 16px;
+}
+.yunweiHome .rightYunwei .Equipment-today .Equipment-today-cnt .Equipmenttodaycntright .Equipmenttodaycntrightctn {
+  width: 100%;
+  height: 165px;
+  position: relative;
+}
+.yunweiHome .rightYunwei .Equipment-today .Equipment-today-cnt .Equipmenttodaycntright .Equipmenttodaycntrightctn .trightctnPic {
+  width: 100%;
+  height: 165px;
+  display: -webkit-box;
+  z-index: 1;
+  margin-top: 15px;
+}
+.yunweiHome .rightYunwei .Equipment-today .Equipment-today-cnt .Equipmenttodaycntright .Equipmenttodaycntrightctn .trightctnPic .bjEquipmenttodaycntrightctnLine1 {
+  width: 100%;
+  height: 1px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 140;
+  background: #eaedf1;
+}
+.yunweiHome .rightYunwei .Equipment-today .Equipment-today-cnt .Equipmenttodaycntright .Equipmenttodaycntrightctn .trightctnPic .bjEquipmenttodaycntrightctnLine2 {
+  width: 100%;
+  height: 1px;
+  position: absolute;
+  top: 40px;
+  left: 0;
+  z-index: 140;
+  background: #eaedf1;
+}
+.yunweiHome .rightYunwei .Equipment-today .Equipment-today-cnt .Equipmenttodaycntright .Equipmenttodaycntrightctn .trightctnPic .bjEquipmenttodaycntrightctnLine3 {
+  width: 100%;
+  height: 1px;
+  position: absolute;
+  top: 80px;
+  left: 0;
+  z-index: 140;
+  background: #eaedf1;
+}
+.yunweiHome .rightYunwei .Equipment-today .Equipment-today-cnt .Equipmenttodaycntright .Equipmenttodaycntrightctn .trightctnPic .bjEquipmenttodaycntrightctnLine4 {
+  width: 100%;
+  height: 1px;
+  position: absolute;
+  top: 120px;
+  left: 0;
+  z-index: 140;
+  background: #eaedf1;
+}
+.yunweiHome .rightYunwei .Equipment-today .Equipment-today-cnt .Equipmenttodaycntright .Equipmenttodaycntrightctn .trightctnPic .bjEquipmenttodaycntrightctnLine5 {
+  width: 100%;
+  height: 1px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: 140;
+  background: #eaedf1;
+}
+.yunweiHome .rightYunwei .Equipment-today .Equipment-today-cnt .Equipmenttodaycntright .Equipmenttodaycntrightctn .trightctnPic div {
+  -webkit-box-flex: 1;
+  height: 165px;
+  width: 0;
+}
+.yunweiHome .rightYunwei .Equipment-today .Equipment-today-cnt .Equipmenttodaycntright .Equipmenttodaycntrightctn .trightctnPic div div {
+  width: 68px;
+  height: 100%;
+  margin: 0 auto;
+}
+.yunweiHome .rightYunwei .Equipment-today .Equipment-today-cnt .Equipmenttodaycntright .Equipmenttodaycntrightctn .trightctnPic div div span {
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+  width: 22px;
+  display: inline-block;
+  margin-bottom: -150px;
+  position: relative;
+  z-index: 141;
+}
+.yunweiHome .rightYunwei .Equipment-today .Equipment-today-cnt .Equipmenttodaycntright .Equipmenttodaycntrightctn .trightctnPic div div .toalcolor {
+  background: #6991ee;
+}
+.yunweiHome .rightYunwei .Equipment-today .Equipment-today-cnt .Equipmenttodaycntright .Equipmenttodaycntrightctn .trightctnPic div div .toalOnlincolor {
+  background: #66C877;
+}
+.yunweiHome .rightYunwei .Equipment-today .Equipment-today-cnt .Equipmenttodaycntright .Equipmenttodaycntrightctn .trightctnPic div div .toalPstopcolor {
+  background: #e19577;
+}
+.yunweiHome .rightYunwei .Equipment-today .Equipment-today-cnt .Equipmenttodaycntright .Equipmenttodaycntrightctn .trightctnPic div div .PicPinToal {
+  height: 100%;
+}
+.yunweiHome .rightYunwei .Equipment-today .Equipment-today-cnt .Equipmenttodaycntright .Equipmenttodaycntrightctn .trightctnPic div div .PicToalOnlin {
+  height: 80%;
+}
+.yunweiHome .rightYunwei .Equipment-today .Equipment-today-cnt .Equipmenttodaycntright .Equipmenttodaycntrightctn .trightctnPic div div .PicToalPstop {
+  height: 60%;
+}
+.yunweiHome .rightYunwei .Equipment-today .Equipment-today-cnt .Equipmenttodaycntright .Equipmenttodaycntrightctn .trightctnPic div div .PicRouter {
+  height: 40%;
+}
+.yunweiHome .rightYunwei .Equipment-today .Equipment-today-cnt .Equipmenttodaycntright .Equipmenttodaycntrightctn .trightctnPic div div .PicOnlinRouter {
+  height: 30%;
+}
+.yunweiHome .rightYunwei .Equipment-today .Equipment-today-cnt .Equipmenttodaycntright .Equipmenttodaycntrightctn .trightctnPic div div .PicPstopRouter {
+  height: 20%;
+}
+.yunweiHome .rightYunwei .Equipment-today .Equipment-today-cnt .Equipmenttodaycntright .Equipmenttodaycntrightctn .trightctnPic div div .PicSwitch {
+  height: 60%;
+}
+.yunweiHome .rightYunwei .Equipment-today .Equipment-today-cnt .Equipmenttodaycntright .Equipmenttodaycntrightctn .trightctnPic div div .PicOnlinSwitch {
+  height: 20%;
+}
+.yunweiHome .rightYunwei .Equipment-today .Equipment-today-cnt .Equipmenttodaycntright .Equipmenttodaycntrightctn .trightctnPic div div .PicPstopSwitch {
+  height: 20%;
+}
+.yunweiHome .rightYunwei .Equipment-today .Equipment-today-cnt .Equipmenttodaycntright .Equipmenttodaycntrightctn .trightctnPic div div .PicFirewall {
+  height: 40%;
+}
+.yunweiHome .rightYunwei .Equipment-today .Equipment-today-cnt .Equipmenttodaycntright .Equipmenttodaycntrightctn .trightctnPic div div .PicOnlinFirewall {
+  height: 30%;
+}
+.yunweiHome .rightYunwei .Equipment-today .Equipment-today-cnt .Equipmenttodaycntright .Equipmenttodaycntrightctn .trightctnPic div div .PicPstopFirewall {
+  height: 20%;
+}
+.yunweiHome .rightYunwei .Equipment-today .Equipment-today-cnt .Equipmenttodaycntright .Equipmenttodaycntrightctn .trightctnPic div div .PicServe {
+  height: 30%;
+}
+.yunweiHome .rightYunwei .Equipment-today .Equipment-today-cnt .Equipmenttodaycntright .Equipmenttodaycntrightctn .trightctnPic div div .PicOnlinServe {
+  height: 20%;
+}
+.yunweiHome .rightYunwei .Equipment-today .Equipment-today-cnt .Equipmenttodaycntright .Equipmenttodaycntrightctn .trightctnPic div div .PicPstopServe {
+  height: 10%;
+}
+.yunweiHome .rightYunwei .Equipment-today .Equipment-today-cnt .Equipmenttodaycntright .Equipmenttodaycntrightctn .trightctnPic div div .PicOther {
+  height: 40%;
+}
+.yunweiHome .rightYunwei .Equipment-today .Equipment-today-cnt .Equipmenttodaycntright .Equipmenttodaycntrightctn .trightctnPic div div .PicOnlinOther {
+  height: 80%;
+}
+.yunweiHome .rightYunwei .Equipment-today .Equipment-today-cnt .Equipmenttodaycntright .Equipmenttodaycntrightctn .trightctnPic div div .PicPstopOther {
+  height: 20%;
+}
+.yunweiHome .rightYunwei .Equipment-today .Equipment-today-cnt .Equipmenttodaycntright .Equipmenttodaycntrightbottom {
+  width: 100%;
+  height: 32px;
+  overflow: hidden;
+}
+.yunweiHome .rightYunwei .Equipment-today .Equipment-today-cnt .Equipmenttodaycntright .Equipmenttodaycntrightbottom ul {
+  display: -webkit-box;
+  width: 100%;
+  height: 32px;
+  text-align: center;
+}
+.yunweiHome .rightYunwei .Equipment-today .Equipment-today-cnt .Equipmenttodaycntright .Equipmenttodaycntrightbottom ul li {
+  -webkit-box-flex: 1;
+  color: #414141;
+  font-size: 12px;
+  font-weight: bold;
+  width: 0;
+  line-height: 32px;
+}
+.yunweiHome .rightYunwei .Equipment-today .Equipment-today-bottom {
+  width: 100%;
+  height: 40px;
+  margin-left: 16px;
+}
+.yunweiHome .rightYunwei .Equipment-today .Equipment-today-bottom .Equipment-today-bottom-qure {
+  width: 12px;
+  height: 12px;
+  display: inline-block;
+}
+.yunweiHome .rightYunwei .Equipment-today .Equipment-today-bottom .green {
+  background: #6991ee;
+}
+.yunweiHome .rightYunwei .Equipment-today .Equipment-today-bottom .pink {
+  background: #e19577;
+}
+.yunweiHome .rightYunwei .Equipment-today .Equipment-today-bottom .purple {
+  background: #66c877;
+}
+.yunweiHome .rightYunwei .Equipment-today .Equipment-today-bottom li {
+  float: left;
+  margin-right: 20px;
+}
+.yunweiHome .rightYunwei .Equipment-today .Equipment-today-bottom .Equipment-today-bottom-last {
+  float: right;
+  margin-right: 32px;
+}
+.yunweiHome .rightYunwei .Equipment-test {
+  height: 380px;
+  width: 100%;
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+.yunweiHome .rightYunwei .Equipment-test .Equipment-test-top {
+  margin-right: 16px;
+  height: 50px;
+  margin-left: 16px;
+  border-bottom: 1px solid #eaedf1;
+  background: #ffffff url("images/spjc_03.png") no-repeat center left;
+}
+.yunweiHome .rightYunwei .Equipment-test .Equipment-test-cnt {
+  height: 310px;
+  display: -webkit-box;
+}
+.yunweiHome .rightYunwei .Equipment-test .Equipment-test-cnt .Equipment-test-cnt-left {
+  width: 258px;
+  height: 310px;
+  margin-left: 16px;
+}
+.yunweiHome .rightYunwei .Equipment-test .Equipment-test-cnt .Equipment-test-cnt-left .EquipmentkongTop {
+  height: 22px;
+  width: 100%;
+}
+.yunweiHome .rightYunwei .Equipment-test .Equipment-test-cnt .Equipment-test-cnt-left .Equipment-test-cnt-left-top {
+  width: 258px;
+  height: 248px;
+  display: -webkit-box;
+  border-bottom: 1px solid #eaedf1;
+}
+.yunweiHome .rightYunwei .Equipment-test .Equipment-test-cnt .Equipment-test-cnt-left .Equipment-test-cnt-left-top div {
+  -webkit-box-flex: 1;
+  width: 258px;
+  height: 248px;
+  position: relative;
+}
+.yunweiHome .rightYunwei .Equipment-test .Equipment-test-cnt .Equipment-test-cnt-left .Equipment-test-cnt-left-top div span {
+  position: absolute;
+  bottom: 0;
+  left: 17px;
+  border-top-right-radius: 4px;
+  border-top-left-radius: 4px;
+  display: inline-block;
+  width: 30px;
+}
+.yunweiHome .rightYunwei .Equipment-test .Equipment-test-cnt .Equipment-test-cnt-left .Equipment-test-cnt-left-top div .Equipment-test-cnt-left-top-normal {
+  height: 100%;
+  background: #66c877;
+}
+.yunweiHome .rightYunwei .Equipment-test .Equipment-test-cnt .Equipment-test-cnt-left .Equipment-test-cnt-left-top div .Equipment-test-cnt-left-top-error {
+  height: 50%;
+  background: #6991ee;
+}
+.yunweiHome .rightYunwei .Equipment-test .Equipment-test-cnt .Equipment-test-cnt-left .Equipment-test-cnt-left-top div .Equipment-test-cnt-left-top-danger {
+  height: 30%;
+  background: #e19577;
+}
+.yunweiHome .rightYunwei .Equipment-test .Equipment-test-cnt .Equipment-test-cnt-left .Equipment-test-cnt-left-top div .Equipment-test-cnt-left-top-forbid {
+  height: 10%;
+  background: #db8cd4;
+}
+.yunweiHome .rightYunwei .Equipment-test .Equipment-test-cnt .Equipment-test-cnt-left .Equipment-test-cnt-left-bottom {
+  height: 40px;
+  width: 100%;
+}
+.yunweiHome .rightYunwei .Equipment-test .Equipment-test-cnt .Equipment-test-cnt-left .Equipment-test-cnt-left-bottom ul {
+  height: 40px;
+  display: -webkit-box;
+}
+.yunweiHome .rightYunwei .Equipment-test .Equipment-test-cnt .Equipment-test-cnt-left .Equipment-test-cnt-left-bottom ul li {
+  position: relative;
+  -webkit-box-flex: 1;
+  text-align: center;
+  line-height: 40px;
+}
+.yunweiHome .rightYunwei .Equipment-test .Equipment-test-cnt .Equipment-test-cnt-right {
+  margin-right: 16px;
+  position: relative;
+  width: 0;
+  -webkit-box-flex: 1;
+}
+.yunweiHome .rightYunwei .Equipment-test .Equipment-test-cnt .Equipment-test-cnt-right .EquipmentkongTop {
+  height: 22px;
+  width: 100%;
+}
+.yunweiHome .rightYunwei .Equipment-test .Equipment-test-cnt .Equipment-test-cnt-right .EquipmentTestTxtTop {
+  width: 100%;
+  height: 36px;
+  display: -webkit-box;
+  border-bottom: 1px solid #eaedf1;
+}
+.yunweiHome .rightYunwei .Equipment-test .Equipment-test-cnt .Equipment-test-cnt-right .EquipmentTestTxtTop div {
+  width: 0;
+  position: relative;
+  -webkit-box-flex: 1;
+  font-size: 18px;
+  text-align: center;
+  line-height: 36px;
+  cursor: pointer;
+  color: #666666;
+}
+.yunweiHome .rightYunwei .Equipment-test .Equipment-test-cnt .Equipment-test-cnt-right .equipmentTestTxt {
+  width: 100%;
+  height: 252px;
+}
+.yunweiHome .rightYunwei .Equipment-test .Equipment-test-cnt .Equipment-test-cnt-right .equipmentTestTxt .EquipmentTestTxtNormal-n {
+  overflow: hidden;
+}
+.yunweiHome .rightYunwei .Equipment-test .Equipment-test-cnt .Equipment-test-cnt-right .equipmentTestTxt .EquipmentTestTxtNormal-n ul .EquipmentTestTxtNormal-left {
+  float: left;
+  width: 166px;
+  line-height: 30px;
+  font-size: 14px;
+}
+.yunweiHome .rightYunwei .Equipment-test .Equipment-test-cnt .Equipment-test-cnt-right .equipmentTestTxt .EquipmentTestTxtNormal-n ul .EquipmentTestTxtNormal-left span {
+  display: inline-block;
+  vertical-align: middle;
+}
+.yunweiHome .rightYunwei .Equipment-test .Equipment-test-cnt .Equipment-test-cnt-right .equipmentTestTxt .EquipmentTestTxtNormal-n ul .EquipmentTestTxtNormal-left .EquipmentTestTxtNormal-disc {
+  height: 4px;
+  width: 4px;
+  background: #adadad;
+  border-radius: 50%;
+  margin-right: 8px;
+}
+.yunweiHome .rightYunwei .Equipment-test .Equipment-test-cnt .Equipment-test-cnt-right .equipmentTestTxt .EquipmentTestTxtNormal-n ul .EquipmentTestTxtNormal-right {
+  float: right;
+  width: 200px;
+  line-height: 30px;
+  color: #a0a0a0;
+  text-align: right;
+}
+.yunweiHome .rightYunwei .Equipment-test .Equipment-test-cnt .Equipment-test-cnt-right .equipmentTestTxt .EquipmentTestTxtNormal-n ul .EquipmentTestTxtNormal-right .EquipmentTestTxtNormal-percent {
+  margin-right: 42px;
+}

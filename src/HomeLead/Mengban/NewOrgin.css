@@ -1,0 +1,115 @@
+.newOrgin {
+  background: rgba(0, 0, 0, 0.5) repeat 0 0;
+  position: fixed;
+  display: none;
+  left: 0;
+  top: 0;
+  z-index: 9996;
+  width: 100%;
+  height: 100%;
+}
+.newOrgin .newOrginCenter {
+  width: 360px;
+  height: 170px;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  margin: auto;
+  font-size: 14px;
+  background-color: #ffffff;
+}
+.newOrgin .newOrginCenter .newOrgintop {
+  width: 100%;
+  background: #64c4dd;
+  height: 40px;
+}
+.newOrgin .newOrginCenter .newOrgintop .newtopTxt {
+  width: 100px;
+  line-height: 40px;
+  color: white;
+  font-size: 16px;
+  margin-left: 20px;
+}
+.newOrgin .newOrginCenter .newOrgintop .newtopX {
+  width: 40px;
+  line-height: 40px;
+  float: right;
+  margin-right: 14px;
+  font-size: 31px;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+  cursor: pointer;
+}
+.newOrgin .newOrginCenter .newOrginMid {
+  width: 316px;
+  margin: 0 auto;
+  margin-top: 26px;
+}
+.newOrgin .newOrginCenter .newOrginMid p {
+  width: 100%;
+  height: 36px;
+}
+.newOrgin .newOrginCenter .newOrginMid p label {
+  line-height: 28px;
+  width: 46px;
+  font-size: 14px;
+  float: left;
+  font-weight: 500;
+  font-family: "微软雅黑";
+}
+.newOrgin .newOrginCenter .newOrginMid p label b {
+  color: red;
+  float: right;
+}
+.newOrgin .newOrginCenter .newOrginMid p input {
+  width: 268px;
+  height: 28px;
+}
+.newOrgin .newOrginCenter .newOrginMid p .user_box {
+  visibility: hidden;
+}
+.newOrgin .newOrginCenter .newOrginMid p .user_box {
+  float: right;
+  margin-right: 8px;
+  line-height: 24px;
+  height: 24px;
+  width: 100%;
+  text-align: right;
+  padding-right: 8px;
+  color: red;
+}
+.newOrgin .newOrginCenter .newOrginMid .formBottom {
+  height: 40px;
+  width: 100%;
+  margin-top: 24px;
+}
+.newOrgin .newOrginCenter .newOrginMid .formBottom span {
+  width: 54px;
+  line-height: 28px;
+  border-radius: 4px;
+  text-align: center;
+  font-size: 14px;
+  float: right;
+  cursor: pointer;
+  -webkit-box-sizing: border-box;
+}
+.newOrgin .newOrginCenter .newOrginMid .formBottom .newSure input {
+  width: 54px;
+  line-height: 28px;
+  border-radius: 4px;
+  text-align: center;
+  background: #74cf84;
+  color: white;
+  border: none;
+}
+.newOrgin .newOrginCenter .newOrginMid .formBottom .newCox {
+  background: #f6f7f8;
+  border: 1px solid gray;
+  margin-left: 10px;
+  width: 52px;
+  height: 28px;
+}
+/*# sourceMappingURL=NewOrgin.css.map */

@@ -1,0 +1,69 @@
+.FaultnewBj {
+  width: 100%;
+  height: 100%;
+  background: #eef5f8;
+  overflow: hidden;
+}
+.FaultnewBj .NewFault {
+  width: 980px;
+  margin: 0 auto;
+  background: white;
+}
+.FaultnewBj .NewFault .NewFaultCenter {
+  width: 930px;
+  margin-left: 25px;
+  margin-top: 20px;
+}
+.FaultnewBj .NewFault .NewFaultCenter header {
+  border-bottom: 1px solid gainsboro;
+  display: block;
+  height: 60px;
+}
+.FaultnewBj .NewFault .NewFaultCenter header .topLeftNewFault {
+  width: 500px;
+  height: 60px;
+  float: left;
+  display: block;
+}
+.FaultnewBj .NewFault .NewFaultCenter header .topLeftNewFault li {
+  float: left;
+  width: 122px;
+  text-align: center;
+  height: 56px;
+  line-height: 56px;
+  font-size: 18px;
+  color: #999999;
+  display: block;
+  -webkit-box-sizing: content-box;
+}
+.FaultnewBj .NewFault .NewFaultCenter header .topLeftNewFault .topLeftNewFaultClick {
+  color: #349ef0;
+  border-bottom: 4px solid #349ef0;
+}
+.FaultnewBj .NewFault .NewFaultCenter header .topRightNewFault {
+  width: 150px;
+  height: 60px;
+  float: right;
+  display: block;
+}
+.FaultnewBj .NewFault .NewFaultCenter header .topRightNewFault li {
+  float: right;
+  line-height: 60px;
+}
+.FaultnewBj .NewFault .NewFaultCenter header .topRightNewFault li button {
+  width: 62px;
+  border-radius: 4px;
+  text-align: center;
+  line-height: 32px;
+  border: none;
+}
+.FaultnewBj .NewFault .NewFaultCenter header .topRightNewFault li .printNewFault {
+  background: #f6f7f8;
+  color: black;
+}
+.FaultnewBj .NewFault .NewFaultCenter header .topRightNewFault li .sureNewFault {
+  margin-right: 12px;
+  background: #74CF84;
+  color: white;
+}
+/*# sourceMappingURL=NewFault.css.map */
